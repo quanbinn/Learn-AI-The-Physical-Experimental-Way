@@ -6,11 +6,11 @@
 - [作者简介]()
 - [实验方法]()
 
-### ？？
+### Sigmoid function
 
-- [](/chapters//.md)
-- [](/chapters//.md)
-- [](/chapters//.md)
+- [在坐标纸上手绘出大致的曲线](/chapters/Sigmoid_function/在坐标纸上手绘出大致的曲线.md)
+- [使用NumPy调试代码](/chapters/Sigmoid_function/使用NumPy调试代码.md)
+- [在online的Jupyter Notebook上使用Matplotlib绘出曲线](/chapters/Sigmoid_function/在online的Jupyter Notebook上使用Matplotlib绘出曲线.md)
 
 ### 图像处理
 
