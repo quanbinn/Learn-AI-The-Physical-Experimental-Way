@@ -1,4 +1,4 @@
-# 实验: 在online的JupyterNotebook上使用Matplotlib绘出Sigmoid function的曲线
+# 在online的JupyterNotebook上使用Matplotlib绘出Sigmoid function的曲线
 
 ## 打开实验文件
 

@@ -1,4 +1,4 @@
-# 实验: 使用NumPy调试Sigmoid function的代码
+# 使用NumPy调试Sigmoid function的代码
 
 ## 打开实验文件
 
