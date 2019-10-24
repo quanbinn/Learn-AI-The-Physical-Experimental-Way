@@ -10,13 +10,12 @@
 import matplotlib.pyplot as plt
 import numpy as np
 def sigmoid(x):
-    a = []
+    array = []
     for item in x:
-        a.append(1/(1+np.exp(-item)))
-    return a
-x = np.arange(-10., 10., 0.2)
-sig = sigmoid(x)
-plt.plot(x,sig)
+        array.append(1/(1+np.exp(-item)))
+    return array
+x = np.arange(-6, 6.1, 2)
+plt.plot(x,sigmoid(x))
 plt.show()
 ```
 
