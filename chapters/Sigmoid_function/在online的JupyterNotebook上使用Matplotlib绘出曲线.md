@@ -9,12 +9,15 @@
 ```python
 import matplotlib.pyplot as plt
 import numpy as np
+
 def sigmoid(x):
     array = []
     for item in x:
         array.append(1/(1+np.exp(-item)))
     return array
+
 x = np.arange(-6, 6.1, 2)
+
 plt.plot(x,sigmoid(x))
 plt.show()
 ```
