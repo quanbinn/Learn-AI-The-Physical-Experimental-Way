@@ -13,11 +13,6 @@
 - [使用NumPy调试代码](/chapters/Sigmoid_function/使用NumPy调试代码.md)
 - [在online的Jupyter Notebook上使用Matplotlib绘出曲线](/chapters/Sigmoid_function/在online的JupyterNotebook上使用Matplotlib绘出曲线.md)
 
-### 图像处理
+### 用NumPy操作矩阵及进行基本运算
 
-- [](/chapters//.md)
-
-### 图像分析
-
-### 计算机视觉 
-
+- [矩阵乘法](/chapters/用NumPy操作矩阵及进行基本运算/矩阵乘法.md)
