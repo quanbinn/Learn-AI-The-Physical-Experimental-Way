@@ -6,7 +6,8 @@
 - 在File的第一个下拉菜单“New Notebook” 的右侧箭头处选择“Python 3”，然后会显示一个新的页面
 - 把下面的这段python代码拷贝到这个页面“In [ ]:”右侧的空白栏中， 然后单击上方的按键“运行”。
 
-```##最小二乘法
+```python
+##最小二乘法
 import numpy as np   ##科学计算库 
 import scipy as sp   ##在numpy基础上实现的部分算法库
 import matplotlib.pyplot as plt  ##绘图库
