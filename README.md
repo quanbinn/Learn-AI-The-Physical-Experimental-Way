@@ -16,3 +16,10 @@
 ### 用NumPy操作矩阵及进行基本运算
 
 - [矩阵乘法](/chapters/用NumPy操作矩阵及进行基本运算/矩阵乘法.md)
+
+### 其它
+
+- [计算偏导数](/chapters/其它/计算偏导数.md)
+- [用Matplotlib绘出最小平方法的线性拟合](/chapters/其它/用Matplotlib绘出最小平方法的线性拟合.md)
+
+
