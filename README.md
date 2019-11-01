@@ -21,6 +21,6 @@
 ### 其它
 
 - [计算偏导数](/chapters/其它/计算偏导数.md)
-- [用Matplotlib绘出最小平方法的线性拟合](/chapters/其它/用Matplotlib绘出最小平方法的线性拟合.md)
+- [用Matplotlib绘出最小平方法的线性拟合 (Hold,未来代码重构)](/chapters/其它/用Matplotlib绘出最小平方法的线性拟合.md)
 
 
