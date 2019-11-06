@@ -22,7 +22,7 @@
 
 - [计算偏导数](/chapters/其它/计算偏导数.md)
 - [体验复合函数的链式法则(Wait)](/chapters/其它/体验复合函数的链式法则.md)
-- [在Excel里生成正态分布的随机数(Wait)](/chapters/其它/在Excel生成正态分布的随机数.md)
+- [在Excel里生成正态分布的随机数(Wait)](/chapters/其它/在Excel里生成正态分布的随机数.md)
 - [用Matplotlib绘出Step function (Hold,未来代码重构)](/chapters/其它/Step_function.md)
 - [用Matplotlib绘出最小平方法的线性拟合 (Hold,未来代码重构)](/chapters/其它/用Matplotlib绘出最小平方法的线性拟合.md)
 
