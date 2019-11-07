@@ -25,5 +25,6 @@
 - [在Excel里生成正态分布的随机数(Wait)](/chapters/其它/在Excel里生成正态分布的随机数.md)
 - [用Matplotlib绘出Step function (Hold,未来代码重构)](/chapters/其它/Step_function.md)
 - [用Matplotlib绘出最小平方法的线性拟合 (Hold,未来代码重构)](/chapters/其它/用Matplotlib绘出最小平方法的线性拟合.md)
+- [通过最小平方法的线性拟合体验Cost funciton(Wait)](/chapters/其它/用通过最小平方法的线性拟合体验Cost_funciton.md)
 
 
