@@ -27,4 +27,6 @@
 - [用Matplotlib绘出最小平方法的线性拟合 (Hold,未来代码重构)](/chapters/其它/用Matplotlib绘出最小平方法的线性拟合.md)
 - [通过最小平方法的线性拟合体验Cost funciton(Wait)](/chapters/其它/通过最小平方法的线性拟合体验Cost_funciton.md)
 
+### 环境配置
 
+- [安装Anaconda](/chapters/环境配置/安装Anaconda.md)
