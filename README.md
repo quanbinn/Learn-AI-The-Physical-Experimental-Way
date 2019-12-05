@@ -29,3 +29,5 @@
 ### 环境配置
 
 - [安装Anaconda](/chapters/环境配置/安装Anaconda.md)
+- [通过conda安装PyTorch](/chapters/环境配置/通过conda安装PyTorch.md)
+
