@@ -1,5 +1,4 @@
-# Learn Deep Learning The Experimental Way
-# 《用实验法学深度学习》
+# Learn Deep Learning The Experimental Way 《用实验法学深度学习》
 
 ### 实验前的准备
 
@@ -9,6 +8,13 @@
 - [调试学习代码段的N个阶段](/chapters/实验前的准备/调试学习代码段的N个阶段.md)
 - [**重要：安装Anaconda**](/chapters/环境配置/安装Anaconda.md)
 - [**重要：通过conda安装PyTorch**](/chapters/环境配置/通过conda安装PyTorch.md)
+
+### 体验神经网络中的根本数学原理
+
+- [参数的表达方法？？](/chapters/体验神经网络中的根本数学原理/.md)
+- [参数的表达方法？？](/chapters/体验神经网络中的根本数学原理/.md)
+- [参数的表达方法？？](/chapters/体验神经网络中的根本数学原理/.md)
+- [参数的表达方法？？](/chapters/体验神经网络中的根本数学原理/.md)
 
 ### 附录1：用NumPy操作矩阵及进行基本运算
 
