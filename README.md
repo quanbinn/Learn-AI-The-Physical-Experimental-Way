@@ -1,4 +1,4 @@
-# Learn Deep Learning The Experimental Way 《用实验法学深度学习》
+# Learn Deep Learning The Experimental Way 《用实体实验法学深度学习》
 
 ### 实验前的准备
 
