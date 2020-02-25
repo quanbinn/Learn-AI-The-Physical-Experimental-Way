@@ -4,7 +4,7 @@
 
 ### 1. 
 
-![](/images/体验Q-Learning的基本原理/Q-table中数值的第1个运算过程/1a0.png)
+![](/images/体验Q-Learning的基本原理/Q-table中数值的第1个运算过程/1a0.jpeg)
 
 ![](/images/体验Q-Learning的基本原理/Q-table中数值的第1个运算过程/1a1.jpg)
 
