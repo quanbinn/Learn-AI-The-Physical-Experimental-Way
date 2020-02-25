@@ -29,6 +29,16 @@
 - [用代价函数计算出1个学习实例的代价](/chapters/体验卷积神经网络中的数学原理/用代价函数计算出1个学习实例的代价.md)
 - [用反向传播算法求出梯度的1个向量](/chapters/体验卷积神经网络中的数学原理/用反向传播算法求出梯度的1个向量.md)
 
+### 体验Q-Learning的基本原理
+
+- [定义状态和行动并且设定奖励值的大小](/chapters/体验Q-Learning的基本原理/定义状态和行动并且设定奖励值的大小.md)
+- [设置奖励矩阵R和Q-table矩阵Q](/chapters/体验Q-Learning的基本原理/设置奖励矩阵R和Q-table矩阵Q.md)
+- [Q-table中数值的第1个运算过程](/chapters/体验Q-Learning的基本原理/Q-table中数值的第1个运算过程.md)
+- [Q-table中数值的第2个运算过程](/chapters/体验Q-Learning的基本原理/Q-table中数值的第2个运算过程.md)
+- [Q-table中数值的第3个运算过程](/chapters/体验Q-Learning的基本原理/Q-table中数值的第3个运算过程.md)
+- [Q-table中数值的第4个运算过程](/chapters/体验Q-Learning的基本原理/Q-table中数值的第4个运算过程.md)
+- [Q-table中数值的第5个运算过程](/chapters/体验Q-Learning的基本原理/Q-table中数值的第5个运算过程.md)
+
 ### 附录1：用NumPy操作矩阵及进行基本运算
 
 - [两个向量的数量积(内积)](/chapters/用NumPy操作矩阵及进行基本运算/两个向量的数量积(内积).md)
