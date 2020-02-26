@@ -23,7 +23,7 @@
 
 ![](/images/体验Q-Learning的基本原理/Q-table中数值的第1个运算过程/2a5.jpg)
 
-### 3.单击右方的[QLearningExample](https://github.com/quanbinn/Learn-Mathematical-Olympiad-The-Interactive-Way/blob/master/issues%2Bhistory/excel/Chain%20Role_y%3Dln(tan(x)).xlsx)，在打开的网页下方单击“View raw ”，然后浏览器会下载并打开一个Excel文件“Chain Role_y=ln(tan(x)).xlsx”。打开“tan(x)”sheet, 你会看到下面7个点坐标(x, u=tan(x)), 如下图所示。
+### 3.单击右方的[QLearningExample](https://github.com/quanbinn/learn-dl-the-experimental-way/blob/master/issues%2Bhistory/excel/QLearningExample.xls)，在打开的网页下方单击“View raw ”，然后浏览器会下载并打开一个Excel文件“QLearningExample.xls”。打开“RL1”sheet, 你会看到Q-table中数值的第1个运算过程的结果Q(1)和Q(1)(Percentage), 如下图所示。
 
 ![](/images/体验Q-Learning的基本原理/Q-table中数值的第1个运算过程/Q1-1.png)
 
