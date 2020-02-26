@@ -16,4 +16,8 @@
 
 ## 参考文献及资料
 
-1. 
+1. 维基百科
+	- [Q-learning](https://en.wikipedia.org/wiki/Q-learning) 
+	- [Markov decision process](https://en.wikipedia.org/wiki/Markov_decision_process) 
+
+1. [Q-Learning using Excel](https://people.revoledu.com/kardi/tutorial/ReinforcementLearning/Q-Learning-Excel.htm)
