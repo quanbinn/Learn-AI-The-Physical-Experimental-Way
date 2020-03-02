@@ -1,4 +1,4 @@
-# Learn Deep Learning The Experimental Way 《用实体实验法学深度学习》
+# Learn Deep Learning & Reinforcement Learning The Experimental Way 《用实体实验法学深度学习和强化学习》
 
 ### 实验前的准备
 
@@ -8,6 +8,10 @@
 - [调试学习代码段的N个阶段](/chapters/实验前的准备/调试学习代码段的N个阶段.md)
 - [**重要：安装Anaconda**](/chapters/环境配置/安装Anaconda.md)
 - [**重要：通过conda安装PyTorch**](/chapters/环境配置/通过conda安装PyTorch.md)
+
+### 体验深度学习和强化学习中处理的基本数据类型
+
+- [1张图像中的100个RGB值](/chapters/体验深度学习和强化学习中处理的基本数据类型/1张图像中的100个RGB值.md)
 
 ### 体验神经网络中的数学原理
 
