@@ -8,6 +8,7 @@
 - [调试学习代码段的N个阶段](/chapters/实验前的准备/调试学习代码段的N个阶段.md)
 - [**重要：安装Anaconda**](/chapters/环境配置/安装Anaconda.md)
 - [**重要：通过conda安装PyTorch**](/chapters/环境配置/通过conda安装PyTorch.md)
+- [**重要：通过conda安装TensorFlow**](/chapters/环境配置/通过conda安装TensorFlow.md)
 
 ### 体验深度学习和强化学习中处理的基本数据类型
 
