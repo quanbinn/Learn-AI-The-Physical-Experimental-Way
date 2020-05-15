@@ -40,6 +40,7 @@
 - [策略的回报和最优策略的最优回报](/chapters/体验强化学习的基本概念/策略的回报和最优策略的最优回报.md)
 - [行动值函数(action-value-function)](/chapters/体验强化学习的基本概念/行动值函数(action-value-function).md)
 - [状态值函数(state-value-function)](/chapters/体验强化学习的基本概念/状态值函数(state-value-function).md)
+- [Bellman方程](/chapters/体验强化学习的基本概念/Bellman方程.md)
 
 ### 体验Q-Learning的基本原理
 
