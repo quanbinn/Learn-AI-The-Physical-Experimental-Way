@@ -1,7 +1,7 @@
-# 状态值函数(state-value-function)
+﻿# 状态值函数(state-value-function)
 
-![](/images/体验强化学习的基本概念/马尔代夫决策过程中智能体与环境的交互模型/1a1.jpg)
+![](/images/体验强化学习的基本概念/状态值函数(state-value-function)/1a1.jpg)
 
-![](/images/体验强化学习的基本概念/马尔代夫决策过程中智能体与环境的交互模型/1a2.jpg)
+![](/images/体验强化学习的基本概念/状态值函数(state-value-function)/1a2.jpg)
 
-![](/images/体验强化学习的基本概念/马尔代夫决策过程中智能体与环境的交互模型/1a3.jpg)
+![](/images/体验强化学习的基本概念/状态值函数(state-value-function)/1a3.jpg)
