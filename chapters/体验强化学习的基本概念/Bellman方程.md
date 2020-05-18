@@ -1,7 +1,11 @@
-﻿# Bellman方程
+# Bellman方程
 
 ![](/images/体验强化学习的基本概念/Bellman方程/1a1.jpg)
 
 ![](/images/体验强化学习的基本概念/Bellman方程/1a2.jpg)
 
 ![](/images/体验强化学习的基本概念/Bellman方程/1a3.jpg)
+
+## 参考文献及资料
+
+1. [Deep Reinforcement Learning Nanodegree Program](https://www.udacity.com/course/deep-reinforcement-learning-nanodegree--nd893)
