@@ -42,6 +42,20 @@
 - [状态值函数(state-value-function)](/chapters/体验强化学习的基本概念/状态值函数(state-value-function).md)
 - [Bellman方程](/chapters/体验强化学习的基本概念/Bellman方程.md)
 
+### 体验蒙特卡洛控制算法
+
+- [蒙特卡洛预测](/chapters/体验蒙特卡罗控制算法/蒙特卡洛预测.md)
+- [Quantity-table](/chapters/体验蒙特卡罗控制算法/Quantity-table.md)
+- [ε-greedy策略](/chapters/体验蒙特卡罗控制算法/ε-greedy策略.md)
+- [constant-α控制算法](/chapters/体验蒙特卡罗控制算法/constant-α控制算法.md)
+
+### 体验基本的时序差分控制方法
+
+- [](/chapters/体验基本的时序差分学习方法/.md)
+- [Sarsa](/chapters/体验基本的时序差分学习方法/Sarsa.md)
+- [Q-learning](/chapters/体验基本的时序差分学习方法/Q-learning.md)
+- [Expected-Sarsa](/chapters/体验基本的时序差分学习方法/Expected-Sarsa.md)
+
 ### 体验Q-Learning的基本原理
 
 - [定义状态和行动并且设定奖励值的大小](/chapters/体验Q-Learning的基本原理/定义状态和行动并且设定奖励值的大小.md)
