@@ -49,12 +49,12 @@
 - [ε-greedy策略](/chapters/体验蒙特卡罗控制算法/ε-greedy策略.md)
 - [constant-α控制算法](/chapters/体验蒙特卡罗控制算法/constant-α控制算法.md)
 
-### 体验基本的时序差分控制方法
+### 体验3种基本的时序差分控制方法
 
-- [](/chapters/体验基本的时序差分学习方法/.md)
-- [Sarsa](/chapters/体验基本的时序差分学习方法/Sarsa.md)
-- [Q-learning](/chapters/体验基本的时序差分学习方法/Q-learning.md)
-- [Expected-Sarsa](/chapters/体验基本的时序差分学习方法/Expected-Sarsa.md)
+- [](/chapters/体验3种基本的时序差分学习方法/.md)
+- [Sarsa](/chapters/体验3种基本的时序差分学习方法/Sarsa.md)
+- [Q-learning](/chapters/体验3种基本的时序差分学习方法/Q-learning.md)
+- [Expected-Sarsa](/chapters/体验3种基本的时序差分学习方法/Expected-Sarsa.md)
 
 ### 体验Q-Learning的基本原理
 
