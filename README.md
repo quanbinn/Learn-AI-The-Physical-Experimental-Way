@@ -44,14 +44,13 @@
 
 ### 体验蒙特卡洛控制算法
 
-- [蒙特卡洛预测](/chapters/体验蒙特卡罗控制算法/蒙特卡洛预测.md)
-- [Quantity-table](/chapters/体验蒙特卡罗控制算法/Quantity-table.md)
-- [ε-greedy策略](/chapters/体验蒙特卡罗控制算法/ε-greedy策略.md)
-- [constant-α控制算法](/chapters/体验蒙特卡罗控制算法/constant-α控制算法.md)
+- [预测](/chapters/体验蒙特卡罗控制算法/预测.md)
+- [用Q-table评估](/chapters/体验蒙特卡罗控制算法/用Q-table评估.md)
+- [用ε-greedy策略改进](/chapters/体验蒙特卡罗控制算法/用ε-greedy策略改进.md)
+- [用constant-α控制](/chapters/体验蒙特卡罗控制算法/用constant-α控制.md)
 
 ### 体验3种基本的时序差分控制方法
 
-- [](/chapters/体验3种基本的时序差分学习方法/.md)
 - [Sarsa](/chapters/体验3种基本的时序差分学习方法/Sarsa.md)
 - [Q-learning](/chapters/体验3种基本的时序差分学习方法/Q-learning.md)
 - [Expected-Sarsa](/chapters/体验3种基本的时序差分学习方法/Expected-Sarsa.md)
