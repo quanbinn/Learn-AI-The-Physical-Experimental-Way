@@ -51,9 +51,9 @@
 
 ### 体验3种基本的时序差分控制方法
 
-- [Sarsa](/chapters/体验3种基本的时序差分学习方法/Sarsa.md)
-- [Q-learning](/chapters/体验3种基本的时序差分学习方法/Q-learning.md)
-- [Expected-Sarsa](/chapters/体验3种基本的时序差分学习方法/Expected-Sarsa.md)
+- [Sarsa](/chapters/体验3种基本的时序差分控制方法/Sarsa.md)
+- [Q-learning](/chapters/体验3种基本的时序差分控制方法/Q-learning.md)
+- [Expected-Sarsa](/chapters/体验3种基本的时序差分控制方法/Expected-Sarsa.md)
 
 ### 体验Q-Learning的基本原理
 
