@@ -2,7 +2,19 @@
 
 ### 1.
 
-![](/images/体验蒙特卡洛控制算法/用Q-table评估/state-action-reward.png)
+![](/images/体验蒙特卡洛控制算法/用Q-table评估/episode1-2.jpg)
+
+![](/images/体验蒙特卡洛控制算法/用Q-table评估/Q-table最大return值的计算方法.png)
+
+### 2.
+
+![](/images/体验蒙特卡洛控制算法/用Q-table评估/episode1-5.jpg)
+
+![](/images/体验蒙特卡洛控制算法/用Q-table评估/Q-table最大return值汇总.png)
+
+![](/images/体验蒙特卡洛控制算法/用Q-table评估/Q-table01.jpg)
+
+![](/images/体验蒙特卡洛控制算法/用Q-table评估/Q-table02.jpg)
 
 ## 参考文献及资料
 
