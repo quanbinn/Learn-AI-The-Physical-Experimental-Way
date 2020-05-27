@@ -2,7 +2,17 @@
 
 ### 1.
 
-![](/images/体验3种基本的时序差分控制方法/Sarsa/state-action-reward.png)
+![](/images/体验3种基本的时序差分控制方法/Sarsa/1a1.png)
+
+![](/images/体验3种基本的时序差分控制方法/Sarsa/1a2.png)
+
+![](/images/体验3种基本的时序差分控制方法/Sarsa/1a3.png)
+
+### 2.
+
+![](/images/体验3种基本的时序差分控制方法/Sarsa/2a1.png)
+
+![](/images/体验3种基本的时序差分控制方法/Sarsa/2a2.png)
 
 ## 参考文献及资料
 

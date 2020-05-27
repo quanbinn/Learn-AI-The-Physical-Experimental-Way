@@ -2,7 +2,7 @@
 
 ### 1.
 
-![](/images/体验3种基本的时序差分控制方法/Expected-Sarsa/state-action-reward.png)
+![](/images/体验3种基本的时序差分控制方法/Expected-Sarsa/1a1.png)
 
 ## 参考文献及资料
 

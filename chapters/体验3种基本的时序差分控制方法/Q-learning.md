@@ -2,7 +2,9 @@
 
 ### 1.
 
-![](/images/体验3种基本的时序差分控制方法/Q-learning/state-action-reward.png)
+![](/images/体验3种基本的时序差分控制方法/Q-learning/1a1.png)
+
+![](/images/体验3种基本的时序差分控制方法/Q-learning/1a2.png)
 
 ## 参考文献及资料
 
