@@ -1,12 +1,12 @@
 # 状态值函数(state-value-function)
 
-### 1.
+### 1.相关内容分别如下图所示。
 
 ![](/images/体验强化学习的基本概念/状态值函数(state-value-function)/state_value_function.jpg)
 
 ![](/images/体验强化学习的基本概念/状态值函数(state-value-function)/optimal_state_value_function.jpg)
 
-### 2.
+### 2.相关内容分别如下图所示。
 
 ![](/images/体验强化学习的基本概念/状态值函数(state-value-function)/optimal_state_value_function01.jpg)
 

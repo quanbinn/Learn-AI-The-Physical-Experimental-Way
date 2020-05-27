@@ -1,12 +1,12 @@
 # 行动值函数(action-value-function)
 
-### 1.
+### 1.相关内容分别如下图所示。
 
 ![](/images/体验强化学习的基本概念/行动值函数(action-value-function)/action_value_function.jpg)
 
 ![](/images/体验强化学习的基本概念/行动值函数(action-value-function)/optimal_action_value_function.jpg)
 
-### 2. 
+### 2.相关内容分别如下图所示。
 
 ![](/images/体验强化学习的基本概念/行动值函数(action-value-function)/action_value_function00.png)
 

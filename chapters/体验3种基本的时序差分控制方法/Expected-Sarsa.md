@@ -1,6 +1,6 @@
 # Expected-Sarsa
 
-### 1.
+### 1.相关内容分别如下图所示。
 
 ![](/images/体验3种基本的时序差分控制方法/Expected-Sarsa/1a1.png)
 

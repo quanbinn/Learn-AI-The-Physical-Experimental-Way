@@ -1,12 +1,12 @@
 # 用Q-table评估
 
-### 1.
+### 1.相关内容分别如下图所示。
 
 ![](/images/体验蒙特卡洛控制算法/用Q-table评估/episode1-2.jpg)
 
 ![](/images/体验蒙特卡洛控制算法/用Q-table评估/Q-table最大return值的计算方法.png)
 
-### 2.
+### 2.相关内容分别如下图所示。
 
 ![](/images/体验蒙特卡洛控制算法/用Q-table评估/episode1-5.jpg)
 
