@@ -1,4 +1,4 @@
-# Learn Deep Learning & Reinforcement Learning The Experimental Way 《用实体实验法学深度学习和强化学习》
+# Learn Reinforcement Learning & Deep Learning & Machine Learning The Experimental Way 《用实体实验法学强化学习, 深度学习和机器学习》
 
 ### 实验前的准备
 
