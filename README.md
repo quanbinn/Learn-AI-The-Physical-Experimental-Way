@@ -65,24 +65,32 @@
 - [Q-table中数值的第4个运算过程](/chapters/体验Q-Learning的基本原理/Q-table中数值的第4个运算过程.md)
 - [Q-table中数值的第5个运算过程](/chapters/体验Q-Learning的基本原理/Q-table中数值的第5个运算过程.md)
 
-### 附录1：用NumPy操作矩阵及进行基本运算
+### 体验遗传算法的基本原理
 
-- [两个向量的数量积(内积)](/chapters/用NumPy操作矩阵及进行基本运算/两个向量的数量积(内积).md)
-- [矩阵乘法](/chapters/用NumPy操作矩阵及进行基本运算/矩阵乘法.md)
+- [part1](/chapters/体验遗传算法的基本原理/part1.md)
+- [part1](/chapters/体验遗传算法的基本原理/part1.md)
+- [part1](/chapters/体验遗传算法的基本原理/part1.md)
+- [part1](/chapters/体验遗传算法的基本原理/part1.md)
+- [part1](/chapters/体验遗传算法的基本原理/part1.md)
+- [part1](/chapters/体验遗传算法的基本原理/part1.md)
 
-### 附录2：在线体验导数/正态分布/最小平方法等
+### 附录
 
-- [计算偏导数](/chapters/其它/计算偏导数.md)
-- [在Excel里生成正态分布的随机数(Wait)](/chapters/其它/在Excel里生成正态分布的随机数.md)
-- [用Matplotlib绘出Step function (Hold,未来代码重构)](/chapters/其它/Step_function.md)
-- [用Matplotlib绘出最小平方法的线性拟合 (Hold,未来代码重构)](/chapters/其它/用Matplotlib绘出最小平方法的线性拟合.md)
-- [通过最小平方法的线性拟合体验Cost funciton(Wait)](/chapters/其它/通过最小平方法的线性拟合体验Cost_funciton.md)
+- **用NumPy操作矩阵及进行基本运算**
+	- [两个向量的数量积(内积)](/chapters/用NumPy操作矩阵及进行基本运算/两个向量的数量积(内积).md)
+	- [矩阵乘法](/chapters/用NumPy操作矩阵及进行基本运算/矩阵乘法.md)
 
-### 附录3：Sigmoid function
+- **在线体验导数/正态分布/最小平方法等**
+	- [计算偏导数](/chapters/附录/计算偏导数.md)
+	- [在Excel里生成正态分布的随机数(Wait)](/chapters/附录/在Excel里生成正态分布的随机数.md)
+	- [用Matplotlib绘出Step function (Hold,未来代码重构)](/chapters/附录/Step_function.md)
+	- [用Matplotlib绘出最小平方法的线性拟合 (Hold,未来代码重构)](/chapters/附录/用Matplotlib绘出最小平方法的线性拟合.md)
+	- [通过最小平方法的线性拟合体验Cost funciton(Wait)](/chapters/附录/通过最小平方法的线性拟合体验Cost_funciton.md)
 
-- [在坐标纸上手绘出大致的曲线](/chapters/Sigmoid_function/在坐标纸上手绘出大致的曲线.md)
-- [使用NumPy调试的代码](/chapters/Sigmoid_function/使用NumPy调试代码.md)
-- [在online的Jupyter Notebook上使用Matplotlib绘出的曲线](/chapters/Sigmoid_function/在online的JupyterNotebook上使用Matplotlib绘出曲线.md)
+- **Sigmoid function**
+	- [在坐标纸上手绘出大致的曲线](/chapters/附录/Sigmoid_function/在坐标纸上手绘出大致的曲线.md)
+	- [使用NumPy调试的代码](/chapters/附录/Sigmoid_function/使用NumPy调试代码.md)
+	- [在online的Jupyter Notebook上使用Matplotlib绘出的曲线](/chapters/附录/Sigmoid_function/在online的JupyterNotebook上使用Matplotlib绘出曲线.md)
 
 
 
