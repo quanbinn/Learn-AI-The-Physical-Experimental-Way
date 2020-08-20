@@ -67,6 +67,7 @@
 
 ### 体验遗传算法的基本原理
 
+- [在线体验求解函数式的极值 (Hold,未来代码重构)](/chapters/体验遗传算法的基本原理/在线体验求解函数式的极值.md)
 - [part1](/chapters/体验遗传算法的基本原理/part1.md)
 - [part1](/chapters/体验遗传算法的基本原理/part1.md)
 - [part1](/chapters/体验遗传算法的基本原理/part1.md)
