@@ -67,13 +67,15 @@
 
 ### 体验遗传算法的基本原理
 
+- [定义函数](/chapters/体验遗传算法的基本原理/定义函数.md)
+- [初始化种群](/chapters/体验遗传算法的基本原理/初始化种群.md)
+- [编码与解码](/chapters/体验遗传算法的基本原理/编码与解码.md)
+- [适应度函数](/chapters/体验遗传算法的基本原理/适应度函数.md)
+- [选择](/chapters/体验遗传算法的基本原理/选择.md)
+- [交叉](/chapters/体验遗传算法的基本原理/交叉.md)
+- [变异](/chapters/体验遗传算法的基本原理/变异.md)
+- [运行参数](/chapters/体验遗传算法的基本原理/运行参数.md)
 - [在线体验求解函数式的极值 (Hold,未来代码重构)](/chapters/体验遗传算法的基本原理/在线体验求解函数式的极值.md)
-- [part1](/chapters/体验遗传算法的基本原理/part1.md)
-- [part1](/chapters/体验遗传算法的基本原理/part1.md)
-- [part1](/chapters/体验遗传算法的基本原理/part1.md)
-- [part1](/chapters/体验遗传算法的基本原理/part1.md)
-- [part1](/chapters/体验遗传算法的基本原理/part1.md)
-- [part1](/chapters/体验遗传算法的基本原理/part1.md)
 
 ### 附录
 
