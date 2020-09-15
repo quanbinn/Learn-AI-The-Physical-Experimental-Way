@@ -100,5 +100,8 @@
 	- [使用NumPy调试的代码](/chapters/附录/Sigmoid_function/使用NumPy调试代码.md)
 	- [在online的Jupyter Notebook上使用Matplotlib绘出的曲线](/chapters/附录/Sigmoid_function/在online的JupyterNotebook上使用Matplotlib绘出曲线.md)
 
+- **其它**
+	- [使用蒙特卡罗方法计算圆周率近似值](/chapters/附录/使用蒙特卡罗方法计算圆周率近似值.md)
 
 
+嗯
