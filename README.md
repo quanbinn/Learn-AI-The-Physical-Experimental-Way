@@ -65,6 +65,20 @@
 - [Q-table中数值的第4个运算过程](/chapters/体验Q-Learning的基本原理/Q-table中数值的第4个运算过程.md)
 - [Q-table中数值的第5个运算过程](/chapters/体验Q-Learning的基本原理/Q-table中数值的第5个运算过程.md)
 
+### 体验机器学习的基本概念
+
+- [数据集中多个数据的Mean,Median,和Mode](/chapters/体验机器学习的基本概念/数据集中多个数据的Mean,Median,和Mode.md)
+- [数据集中多个数据的Standard Deviation和Variance](/chapters/体验机器学习的基本概念/数据集中多个数据的Standard_Deviation和Variance.md)
+- [数据集中多个数据的Percentile](/chapters/体验机器学习的基本概念/数据集中多个数据的Percentile.md)
+- [数据集中多个数据的(Normal) Data Distribution](/chapters/体验机器学习的基本概念/数据集中多个数据的(Normal)_Data _Distribution.md)
+- [数据集中多个数据的Scatter Plot](/chapters/体验机器学习的基本概念/数据集中多个数据的Scatter_Plot.md)
+- [用Linear Regression找出不同类型的数据间的相互关系](/chapters/体验机器学习的基本概念/用Linear_Regression找出不同类型的数据间的相互关系.md)
+- [用Polynomial Regression找出不同类型的数据间的相互关系](/chapters/体验机器学习的基本概念/用Polynomial_Regression找出不同类型的数据间的相互关系.md)
+- [用Multiple Regression找出不同类型的数据间的相互关系](/chapters/体验机器学习的基本概念/用Multiple_Regression找出不同类型的数据间的相互关系.md)
+- [用Scale找出不同类型的数据间的相互关系](/chapters/体验机器学习的基本概念/用Scale找出不同类型的数据间的相互关系.md)
+- [用Train/Test的方法评估机器学习模型](/chapters/体验机器学习的基本概念/用Train_Test的方法评估机器学习模型.md)
+- [体验决策树](/chapters/体验机器学习的基本概念/体验决策树.md)
+
 ### 体验遗传算法的基本原理
 
 - [在线体验求解函数式的极值 (Hold,未来代码重构)](/chapters/体验遗传算法的基本原理/在线体验求解函数式的极值.md)
