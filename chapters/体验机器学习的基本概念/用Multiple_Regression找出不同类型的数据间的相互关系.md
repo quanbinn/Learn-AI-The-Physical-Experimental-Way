@@ -20,6 +20,7 @@
 
 ## 参考文献及资料
 
-1. [matplotlib：tutorials](https://matplotlib.org/tutorials/index.html)
+1. [Multiple Regression](https://www.w3schools.com/python/python_ml_multiple_regression.asp)
+1. [多项式回归](https://www.w3school.com.cn/python/python_ml_polynomial_regression.asp)
 
 

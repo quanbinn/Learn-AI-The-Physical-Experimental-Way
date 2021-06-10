@@ -20,6 +20,7 @@
 
 ## 参考文献及资料
 
-1. [matplotlib：tutorials](https://matplotlib.org/tutorials/index.html)
+1. [Train/Test](https://www.w3schools.com/python/python_ml_train_test.asp)
+1. [训练/测试](https://www.w3school.com.cn/python/python_ml_train_test.asp)
 
 

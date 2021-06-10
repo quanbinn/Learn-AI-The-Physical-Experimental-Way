@@ -20,6 +20,7 @@
 
 ## 参考文献及资料
 
-1. [matplotlib：tutorials](https://matplotlib.org/tutorials/index.html)
+1. [Mean Median Mode](https://www.w3schools.com/python/python_ml_mean_median_mode.asp)
+2. [平均中位数模式](https://www.w3school.com.cn/python/python_ml_mean_median_mode.asp)
 
 

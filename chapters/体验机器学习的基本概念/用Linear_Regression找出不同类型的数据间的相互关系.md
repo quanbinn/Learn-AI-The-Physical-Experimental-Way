@@ -20,6 +20,7 @@
 
 ## 参考文献及资料
 
-1. [matplotlib：tutorials](https://matplotlib.org/tutorials/index.html)
+1. [Linear Regression(https://www.w3schools.com/python/python_ml_linear_regression.asp)
+1. [线性回归](https://www.w3school.com.cn/python/python_ml_linear_regression.asp)
 
 

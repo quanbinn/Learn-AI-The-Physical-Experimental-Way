@@ -20,6 +20,7 @@
 
 ## 参考文献及资料
 
-1. [matplotlib：tutorials](https://matplotlib.org/tutorials/index.html)
+1. [Scale](https://www.w3schools.com/python/python_ml_scale.asp)
+1. [缩放](https://www.w3school.com.cn/python/python_ml_scale.asp)
 
 

@@ -20,6 +20,7 @@
 
 ## 参考文献及资料
 
-1. [matplotlib：tutorials](https://matplotlib.org/tutorials/index.html)
+1. [Scatter Plot](https://www.w3schools.com/python/python_ml_scatterplot.asp)
+1. [散点图](https://www.w3school.com.cn/python/python_ml_scatterplot.asp)
 
 
