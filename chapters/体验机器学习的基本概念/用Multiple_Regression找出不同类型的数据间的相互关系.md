@@ -2,20 +2,60 @@
 
 ## 打开实验文件
 
-- 单机右方的[Jupyter Notebook](https://mybinder.org/v2/gh/ipython/ipython-in-depth/master?filepath=binder/Index.ipynb)，稍后在浏览器里会显示Jupyter Notebook的运行环境。
-- 在File的第一个下拉菜单“New Notebook” 的右侧箭头处选择“Python 3”，然后会显示一个新的页面
-- 把下面的这段python代码拷贝到这个页面“In [ ]:”右侧的空白栏中， 然后单击上方的按键“运行”。
+- 单机右方的[Online Python Editor for Machine learning | Data Science](https://pythonbaba.com/online-python-code-editor-and-ide-for-data-science/)。
+- 在打开的网页中，单击中间的“Click to see the Demo Code Execution”，后会显示出Python的在线编辑器。
+- 把下面的python代码段拷贝到在线编辑器左边的空白栏中，然后单击上方的按键“Run”。
+- **注明: 单击[cars.csv](https://www.w3school.com.cn/python/cars.csv), 会自动下载cars.csv文件**.
 
 ```python
+import pandas
+from sklearn import linear_model
 
+df = pandas.read_csv("cars.csv")
+
+X = df[['Weight', 'Volume']]
+y = df['CO2']
+
+regr = linear_model.LinearRegression()
+regr.fit(X, y)
+
+# 预测重量为 2300kg、排量为 1300ccm 的汽车的二氧化碳排放量：
+
+predictedCO2 = regr.predict([[2300, 1300]])
+
+print(predictedCO2)
 ```
 
 ```python
+import pandas
+from sklearn import linear_model
 
+df = pandas.read_csv("cars.csv")
+
+X = df[['Weight', 'Volume']]
+y = df['CO2']
+
+regr = linear_model.LinearRegression()
+regr.fit(X, y)
+
+print(regr.coef_)
 ```
 
 ```python
+import pandas
+from sklearn import linear_model
 
+df = pandas.read_csv("cars.csv")
+
+X = df[['Weight', 'Volume']]
+y = df['CO2']
+
+regr = linear_model.LinearRegression()
+regr.fit(X, y)
+
+predictedCO2 = regr.predict([[3300, 1300]])
+
+print(predictedCO2)
 ```
 
 ## 参考文献及资料

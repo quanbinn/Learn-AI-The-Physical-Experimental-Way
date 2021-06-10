@@ -2,20 +2,29 @@
 
 ## 打开实验文件
 
-- 单机右方的[Jupyter Notebook](https://mybinder.org/v2/gh/ipython/ipython-in-depth/master?filepath=binder/Index.ipynb)，稍后在浏览器里会显示Jupyter Notebook的运行环境。
-- 在File的第一个下拉菜单“New Notebook” 的右侧箭头处选择“Python 3”，然后会显示一个新的页面
-- 把下面的这段python代码拷贝到这个页面“In [ ]:”右侧的空白栏中， 然后单击上方的按键“运行”。
+- 单机右方的[Online Python Editor for Machine learning | Data Science](https://pythonbaba.com/online-python-code-editor-and-ide-for-data-science/)。
+- 在打开的网页中，单击中间的“Click to see the Demo Code Execution”，后会显示出Python的在线编辑器。
+- 把下面的python代码段拷贝到在线编辑器左边的空白栏中，然后单击上方的按键“Run”。
 
 ```python
+import matplotlib.pyplot as plt
 
+x = [5,7,8,7,2,17,2,9,4,11,12,9,6]
+y = [99,86,87,88,111,86,103,87,94,78,77,85,86]
+
+plt.scatter(x, y)
+plt.show()
 ```
 
 ```python
+import numpy
+import matplotlib.pyplot as plt
 
-```
+x = numpy.random.normal(5.0, 1.0, 1000)
+y = numpy.random.normal(10.0, 2.0, 1000)
 
-```python
-
+plt.scatter(x, y)
+plt.show()
 ```
 
 ## 参考文献及资料

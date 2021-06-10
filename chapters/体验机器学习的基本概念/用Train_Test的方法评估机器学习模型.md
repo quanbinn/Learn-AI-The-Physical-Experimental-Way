@@ -2,20 +2,85 @@
 
 ## 打开实验文件
 
-- 单机右方的[Jupyter Notebook](https://mybinder.org/v2/gh/ipython/ipython-in-depth/master?filepath=binder/Index.ipynb)，稍后在浏览器里会显示Jupyter Notebook的运行环境。
-- 在File的第一个下拉菜单“New Notebook” 的右侧箭头处选择“Python 3”，然后会显示一个新的页面
-- 把下面的这段python代码拷贝到这个页面“In [ ]:”右侧的空白栏中， 然后单击上方的按键“运行”。
+- 单机右方的[Online Python Editor for Machine learning | Data Science](https://pythonbaba.com/online-python-code-editor-and-ide-for-data-science/)。
+- 在打开的网页中，单击中间的“Click to see the Demo Code Execution”，后会显示出Python的在线编辑器。
+- 把下面的python代码段拷贝到在线编辑器左边的空白栏中，然后单击上方的按键“Run”。
 
 ```python
+import numpy
+import matplotlib.pyplot as plt
+numpy.random.seed(2)
 
+x = numpy.random.normal(3, 1, 100)
+y = numpy.random.normal(150, 40, 100) / x
+
+plt.scatter(x, y)
+plt.show()
 ```
 
 ```python
+import numpy
+import matplotlib.pyplot as plt
+numpy.random.seed(2)
 
+x = numpy.random.normal(3, 1, 100)
+y = numpy.random.normal(150, 40, 100) / x
+
+train_x = x[:80]
+train_y = y[:80]
+
+test_x = x[80:]
+test_y = y[80:]
+
+mymodel = numpy.poly1d(numpy.polyfit(train_x, train_y, 4))
+
+myline = numpy.linspace(0, 6, 100)
+
+plt.scatter(train_x, train_y)
+plt.plot(myline, mymodel(myline))
+plt.show()
 ```
 
 ```python
+import numpy
+from sklearn.metrics import r2_score
+numpy.random.seed(2)
 
+x = numpy.random.normal(3, 1, 100)
+y = numpy.random.normal(150, 40, 100) / x
+
+train_x = x[:80]
+train_y = y[:80]
+
+test_x = x[80:]
+test_y = y[80:]
+
+mymodel = numpy.poly1d(numpy.polyfit(train_x, train_y, 4))
+
+r2 = r2_score(train_y, mymodel(train_x))
+
+print(r2)
+```
+
+```python
+import numpy
+from sklearn.metrics import r2_score
+numpy.random.seed(2)
+
+x = numpy.random.normal(3, 1, 100)
+y = numpy.random.normal(150, 40, 100) / x
+
+train_x = x[:80]
+train_y = y[:80]
+
+test_x = x[80:]
+test_y = y[80:]
+
+mymodel = numpy.poly1d(numpy.polyfit(train_x, train_y, 4))
+
+r2 = r2_score(test_y, mymodel(test_x))
+
+print(r2)
 ```
 
 ## 参考文献及资料
