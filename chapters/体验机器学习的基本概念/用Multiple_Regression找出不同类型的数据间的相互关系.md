@@ -1,8 +1,8 @@
-# 用Multiple Regression找出不同类型的数据间的相互关系
+﻿# 用Multiple Regression找出不同类型的数据间的相互关系
 
 ## 打开实验文件
 
-- 单机右方的[Online Python Editor for Machine learning | Data Science](https://pythonbaba.com/online-python-code-editor-and-ide-for-data-science/)。
+- 单击右方的[Online Python Editor for Machine learning | Data Science](https://pythonbaba.com/online-python-code-editor-and-ide-for-data-science/)。
 - 在打开的网页中，单击中间的“Click to see the Demo Code Execution”，后会显示出Python的在线编辑器。
 - 把下面的python代码段拷贝到在线编辑器左边的空白栏中，然后单击上方的按键“Run”。
 - **注明: 单击[cars.csv](https://www.w3school.com.cn/python/cars.csv), 会自动下载cars.csv文件**.
