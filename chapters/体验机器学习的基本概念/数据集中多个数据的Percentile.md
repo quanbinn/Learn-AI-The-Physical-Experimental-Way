@@ -1,8 +1,9 @@
 # 数据集中多个数据的Percentile
 
-## 打开实验文件
+## 在线调试环境
 
-单击右方的[在线代码段Url网址](http://www.pythontutor.com/visualize.html#code=import%20numpy%0A%0Aages%20%3D%20%5B5,31,43,48,50,41,7,11,15,39,80,82,32,2,8,6,25,36,27,61,31%5D%0A%0Ax%20%3D%20numpy.percentile%28ages,%2075%29%0A%0Aprint%28x%29%0A%0A%23%20import%20numpy%0A%23%20ages%20%3D%20%5B5,31,43,48,50,41,7,11,15,39,80,82,32,2,8,6,25,36,27,61,31%5D%0A%23%20x%20%3D%20numpy.percentile%28ages,%2090%29%0A%23%20print%28x%29&cumulative=false&heapPrimitives=nevernest&mode=edit&origin=opt-frontend.js&py=py3anaconda&rawInputLstJSON=%5B%5D&textReferences=false)，浏览器里会打开一个新的页面，里面有下面的代码段。
+- 单机右方的[Python Online Compiler](https://trinket.io/python3/a5bd54189b)，稍后在浏览器里会显示python的运行环境。
+- 把下面的这段python代码拷贝到这个页面左侧的空白栏中， 然后单击上方的按键“Run”。
 
 ```python
 import numpy

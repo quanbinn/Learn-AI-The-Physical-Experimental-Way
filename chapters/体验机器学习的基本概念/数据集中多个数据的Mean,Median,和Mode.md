@@ -1,8 +1,9 @@
 # 数据集中多个数据的Mean,Median,和Mode
 
-## 打开实验文件
+## 在线调试环境
 
-单击右方的[在线代码段Url网址](http://www.pythontutor.com/visualize.html#code=import%20numpy%0A%0Aspeed%20%3D%20%5B99,86,87,88,111,86,103,87,94,78,77,85,86%5D%0A%0Ax%20%3D%20numpy.mean%28speed%29%0A%0Aprint%28x%29%0A%0A%23%20import%20numpy%0A%23%20speed%20%3D%20%5B99,86,87,88,111,86,103,87,94,78,77,85,86%5D%0A%23%20x%20%3D%20numpy.median%28speed%29%0A%23%20print%28x%29%0A%0A%23%20import%20numpy%0A%23%20speed%20%3D%20%5B99,86,87,88,86,103,87,94,78,77,85,86%5D%0A%23%20x%20%3D%20numpy.median%28speed%29%0A%23%20print%28x%29%0A%0A%23%20from%20scipy%20import%20stats%0A%23%20speed%20%3D%20%5B99,86,87,88,111,86,103,87,94,78,77,85,86%5D%0A%23%20x%20%3D%20stats.mode%28speed%29%0A%23%20print%28x%29%0A%0A%23The%20mode%28%29%20method%20returns%20a%20ModeResult%20object%20that%20%0A%23%20contains%20the%20mode%20number%20%2886%29,%20and%20count%20%28how%20many%0A%23%20times%20the%20mode%20number%20appeared%20%283%29%29.%0A%0A&cumulative=false&heapPrimitives=nevernest&mode=edit&origin=opt-frontend.js&py=py3anaconda&rawInputLstJSON=%5B%5D&textReferences=false)，浏览器里会打开一个新的页面，里面有下面的代码段。
+- 单机右方的[Python Online Compiler](https://trinket.io/python3/a5bd54189b)，稍后在浏览器里会显示python的运行环境。
+- 把下面的这段python代码拷贝到这个页面左侧的空白栏中， 然后单击上方的按键“Run”。
 
 ```python
 import numpy
