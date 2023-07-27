@@ -51,14 +51,14 @@ Learn-Mathematics-The--Experimental-Way
 
 - 基本概念
 	- [数据集中多个数据的Mean,Median,和Mode](/chapters/机器学习/基本概念/数据集中多个数据的Mean,Median,和Mode.md) | [数据集中多个数据的Standard Deviation和Variance](/chapters/机器学习/基本概念/数据集中多个数据的Standard_Deviation和Variance.md) | [数据集中多个数据的Percentile](/chapters/机器学习/基本概念/数据集中多个数据的Percentile.md)
-	- [数据集中多个数据的(Normal) Data Distribution](/chapters/机器学习/基本概念/数据集中多个数据的(Normal)_Data_Distribution.md) | [数据集中多个数据的Scatter Plot](/chapters/机器学习/基本概念/数据集中多个数据的Scatter_Plot.m)
+	- [数据集中多个数据的(Normal) Data Distribution](/chapters/机器学习/基本概念/数据集中多个数据的(Normal)_Data_Distribution.md) | [数据集中多个数据的Scatter Plot](/chapters/机器学习/基本概念/数据集中多个数据的Scatter_Plot.md)
 	- [用Linear Regression找出不同类型的数据间的相互关系](/chapters/机器学习/基本概念/用Linear_Regression找出不同类型的数据间的相互关系.md) | [用Polynomial Regression找出不同类型的数据间的相互关系](/chapters/机器学习/基本概念/用Polynomial_Regression找出不同类型的数据间的相互关系.md) | [用Multiple Regression找出不同类型的数据间的相互关系](/chapters/机器学习/基本概念/用Multiple_Regression找出不同类型的数据间的相互关系.md) 
 	- [用Scale找出不同类型的数据间的相互关系](/chapters/机器学习/基本概念/用Scale找出不同类型的数据间的相互关系.md)
 	- [用Train/Test的方法评估机器学习模型](/chapters/机器学习/基本概念/用Train_Test的方法评估机器学习模型.md)
 	- [体验决策树](/chapters/机器学习/基本概念/体验决策树.md)
 
 - 遗传算法
-/机器学习/遗传算法/
+
 	- [在线体验求解函数式的极值 (Hold,未来代码重构)](/chapters/机器学习/遗传算法/在线体验求解函数式的极值.md)
 	- [定义评价函数](/chapters/机器学习/遗传算法/定义评价函数.md) | [随机生成种群](/chapters/机器学习/遗传算法/随机生成种群.md) | [二进制与十进制的相互映射](/chapters/机器学习/遗传算法/二进制与十进制的相互映射.md) | [适应度函数](/chapters/机器学习/遗传算法/适应度函数.md)
 	- [选择](/chapters/机器学习/遗传算法/选择.md) | [交叉](/chapters/机器学习/遗传算法/.md) | [变异](/chapters/机器学习/遗传算法/变异.md)
