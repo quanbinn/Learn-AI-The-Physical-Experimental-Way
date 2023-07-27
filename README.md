@@ -1,8 +1,6 @@
 # Learn Deep & Reinforcement & Machine Learning The Physical Experimental Way
 # 《用实体实验法学深度和强化和机器学习》
 
-Learn-Mathematics-The--Experimental-Way
-
 ### 实验前的准备
 
 - [**重要：首先购买实验道具**]() | [作者简介]() | [实验方法]() | [调试学习代码段的N个阶段](/chapters/实验前的准备/调试学习代码段的N个阶段.md)
