@@ -36,7 +36,7 @@ Learn-Mathematics-The--Experimental-Way
 
 - 蒙特卡洛控制算法
 
-	- [预测](/chapters/强化学习/蒙特卡洛控制算法/预测.md) | [用Q-table评估](/chapterss/强化学习/蒙特卡洛控制算法/用Q-table评估.md) | [用ε-greedy策略改进](/chapters/强化学习/蒙特卡洛控制算法/用ε-greedy策略改进.md) | [用constant-α控制](/chapterss/强化学习/蒙特卡洛控制算法/用constant-α控制.md)
+	- [预测](/chapters/强化学习/蒙特卡洛控制算法/预测.md) | [用Q-table评估](/chapters/强化学习/蒙特卡洛控制算法/用Q-table评估.md) | [用ε-greedy策略改进](/chapters/强化学习/蒙特卡洛控制算法/用ε-greedy策略改进.md) | [用constant-α控制](/chapters/强化学习/蒙特卡洛控制算法/用constant-α控制.md)
 
 - 基本的时序差分控制方法
 
