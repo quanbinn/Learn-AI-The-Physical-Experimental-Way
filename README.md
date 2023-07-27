@@ -41,7 +41,7 @@
 - Q-Learning的基本原理
 
 	- [定义状态和行动并且设定奖励值的大小](/chapters/强化学习/Q-Learning的基本原理/定义状态和行动并且设定奖励值的大小.md) | [设置奖励矩阵R和Q-table矩阵Q](/chapters/强化学习/Q-Learning的基本原理/设置奖励矩阵R和Q-table矩阵Q.md)
-	- [Q-table中数值的第1个运算过程](/chapters/强化学习/Q-Learning的基本原理/Q-table中数值的第1个运算过程.md) | [第2个运算过程](/chapters/强化学习/Q-Learning的基本原理/第2个运算过程.md) | [第3个运算过程](/chapters/强化学习/Q-Learning的基本原理/第3个运算过程.md) | [第4个运算过程](/chapters/强化学习/Q-Learning的基本原理/第4个运算过程.md) | [第5个运算过程](/chapters/强化学习/Q-Learning的基本原理/第5个运算过程.md)
+	- [Q-table中数值的运算过程1](/chapters/强化学习/Q-Learning的基本原理/Q-table中数值的运算过程1.md) | [运算过程2](/chapters/强化学习/Q-Learning的基本原理/运算过程2.md) | [运算过程3](/chapters/强化学习/Q-Learning的基本原理/运算过程3.md) | [运算过程4](/chapters/强化学习/Q-Learning的基本原理/运算过程4.md) | [运算过程5](/chapters/强化学习/Q-Learning的基本原理/运算过程5.md)
 
 ### 机器学习
 
