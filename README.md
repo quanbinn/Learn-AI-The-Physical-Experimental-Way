@@ -61,7 +61,7 @@ Learn-Mathematics-The--Experimental-Way
 
 	- [在线体验求解函数式的极值 (Hold,未来代码重构)](/chapters/机器学习/遗传算法/在线体验求解函数式的极值.md)
 	- [定义评价函数](/chapters/机器学习/遗传算法/定义评价函数.md) | [随机生成种群](/chapters/机器学习/遗传算法/随机生成种群.md) | [二进制与十进制的相互映射](/chapters/机器学习/遗传算法/二进制与十进制的相互映射.md) | [适应度函数](/chapters/机器学习/遗传算法/适应度函数.md)
-	- [选择](/chapters/机器学习/遗传算法/选择.md) | [交叉](/chapters/机器学习/遗传算法/.md) | [变异](/chapters/机器学习/遗传算法/变异.md)
+	- [选择](/chapters/机器学习/遗传算法/选择.md) | [交叉](/chapters/机器学习/遗传算法/交叉.md) | [变异](/chapters/机器学习/遗传算法/变异.md)
 
 ### 附录
 
