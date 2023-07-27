@@ -32,13 +32,9 @@
 	- [马尔可夫决策过程中的“智能体-环境”的交互模型](/chapters/强化学习/基本概念/马尔可夫决策过程中的“智能体-环境”的交互模型.md) | [策略的回报和最优策略的最优回报](/chapters/强化学习/基本概念/策略的回报和最优策略的最优回报.md)
 	- [行动值函数(action-value-function)](/chapters/强化学习/基本概念/行动值函数(action-value-function).md) | [状态值函数(state-value-function)](/chapters/强化学习/基本概念/状态值函数(state-value-function).md) | [Bellman方程](/chapters/强化学习/基本概念/Bellman方程.md)
 
-- 蒙特卡洛控制算法
+- 蒙特卡洛控制算法: [预测](/chapters/强化学习/蒙特卡洛控制算法/预测.md) | [用Q-table评估](/chapters/强化学习/蒙特卡洛控制算法/用Q-table评估.md) | [用ε-greedy策略改进](/chapters/强化学习/蒙特卡洛控制算法/用ε-greedy策略改进.md) | [用constant-α控制](/chapters/强化学习/蒙特卡洛控制算法/用constant-α控制.md)
 
-	- [预测](/chapters/强化学习/蒙特卡洛控制算法/预测.md) | [用Q-table评估](/chapters/强化学习/蒙特卡洛控制算法/用Q-table评估.md) | [用ε-greedy策略改进](/chapters/强化学习/蒙特卡洛控制算法/用ε-greedy策略改进.md) | [用constant-α控制](/chapters/强化学习/蒙特卡洛控制算法/用constant-α控制.md)
-
-- 基本的时序差分控制方法
-
-	- [Sarsa](/chapters/强化学习/基本的时序差分控制方法/Sarsa.md) | [Q-learning](/chapters/强化学习/基本的时序差分控制方法/Q-learning.md) | [Expected-Sarsa](/chapters/强化学习/基本的时序差分控制方法/Expected-Sarsa.md)
+- 基本的时序差分控制方法: [Sarsa](/chapters/强化学习/基本的时序差分控制方法/Sarsa.md) | [Q-learning](/chapters/强化学习/基本的时序差分控制方法/Q-learning.md) | [Expected-Sarsa](/chapters/强化学习/基本的时序差分控制方法/Expected-Sarsa.md)
 
 - Q-Learning的基本原理
 
