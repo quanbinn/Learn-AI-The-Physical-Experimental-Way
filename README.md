@@ -12,6 +12,8 @@
 
 ### 深度学习
 
+- 基本概念
+	- [人工神经元](/chapters/深度学习/基本概念/人工神经元.md)
 
 - 神经网络
 	- [输入图像实例的数据和神经网络的代价函数](/chapters/深度学习/神经网络/输入图像实例的数据和神经网络的代价函数.md) | [神经网络中用到的变量名和参数名的表示方法](/chapters/深度学习/神经网络/神经网络中用到的变量名和参数名的表示方法.md)
@@ -29,8 +31,9 @@
 
 - 基本概念
 
-	- [马尔可夫决策过程中的“智能体-环境”的交互模型](/chapters/强化学习/基本概念/马尔可夫决策过程中的“智能体-环境”的交互模型.md) | [策略的回报和最优策略的最优回报](/chapters/强化学习/基本概念/策略的回报和最优策略的最优回报.md)
-	- [行动值函数(action-value-function)](/chapters/强化学习/基本概念/行动值函数(action-value-function).md) | [状态值函数(state-value-function)](/chapters/强化学习/基本概念/状态值函数(state-value-function).md) | [Bellman方程](/chapters/强化学习/基本概念/Bellman方程.md)
+- 马尔可夫链
+	- [马尔可夫决策过程中的“智能体-环境”的交互模型](/chapters/强化学习/马尔可夫链/马尔可夫决策过程中的“智能体-环境”的交互模型.md) | [策略的回报和最优策略的最优回报](/chapters/强化学习/马尔可夫链/策略的回报和最优策略的最优回报.md)
+	- [行动值函数(action-value-function)](/chapters/强化学习/马尔可夫链/行动值函数(action-value-function).md) | [状态值函数(state-value-function)](/chapters/强化学习/马尔可夫链/状态值函数(state-value-function).md) | [Bellman方程](/chapters/强化学习/马尔可夫链/Bellman方程.md)
 
 - 蒙特卡洛控制算法
 	- [预测](/chapters/强化学习/蒙特卡洛控制算法/预测.md) | [用Q-table评估](/chapters/强化学习/蒙特卡洛控制算法/用Q-table评估.md) | [用ε-greedy策略改进](/chapters/强化学习/蒙特卡洛控制算法/用ε-greedy策略改进.md) | [用constant-α控制](/chapters/强化学习/蒙特卡洛控制算法/用constant-α控制.md)
