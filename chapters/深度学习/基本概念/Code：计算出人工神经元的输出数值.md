@@ -69,3 +69,58 @@ for neuron_weights, neuron_bias in zip(weights, biases):		# For each neuron
 
 print(layer_outputs)
 ```
+
+#### 使用numpy中的dot()对单个神经元进行计算（使用了数学上矩阵数量积乘法的概念）
+
+```python
+import numpy as np
+
+inputs = [1.0, 2.0, 3.0, 2.5]
+weights = [0.2, 0.8, -0.5, 1.0]
+bias = 2.0
+
+outputs = np.dot(weights, inputs) + bias
+
+print(outputs)
+```
+
+#### 使用numpy中的dot()对一层中的多个神经元进行计算（使用了数学上矩阵数量积乘法的概念）
+
+```python
+import numpy as np
+
+inputs = [1.0, 2.0, 3.0, 2.5]
+weights = [[0.2, 0.8, -0.5, 1],
+[0.5, -0.91, 0.26, -0.5],
+[-0.26, -0.27, 0.17, 0.87]]
+biases = [2.0, 3.0, 0.5]
+
+layer_outputs = np.dot(weights, inputs) + biases
+
+print(layer_outputs)
+```
+
+#### 使用numpy中的dot()对一层中的多个神经元进行计算（多组输入数据）（使用了数学上矩阵数量积和向量积乘法的概念）
+
+```python
+import numpy as np
+
+inputs = [[1.0, 2.0, 3.0, 2.5],
+ [2.0, 5.0, -1.0, 2.0],
+ [-1.5, 2.7, 3.3, -0.8]]
+weights = [[0.2, 0.8, -0.5, 1.0],
+ [0.5, -0.91, 0.26, -0.5],
+ [-0.26, -0.27, 0.17, 0.87]]
+biases = [2.0, 3.0, 0.5]
+
+layer_outputs = np.dot(inputs, np.array(weights).T) + biases
+
+print(layer_outputs)
+```
+
+## 参考文献及资料
+
+1. [Neural Networks from Scratch](https://nnfs.io/)
+2. [p001-Basic-Neuron-3-inputs.py](https://github.com/Sentdex/NNfSiX/blob/master/Python/p001-Basic-Neuron-3-inputs.py)
+3. [p002-Basic-Neuron-Layer.py](https://github.com/Sentdex/NNfSiX/blob/master/Python/p002-Basic-Neuron-Layer.py)
+4. [p003-Dot-Product.py](https://github.com/Sentdex/NNfSiX/blob/master/Python/p003-Dot-Product.py)
