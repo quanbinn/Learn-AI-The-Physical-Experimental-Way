@@ -4,7 +4,7 @@
 ### 实验前的准备
 
 - [**重要：首先购买实验道具**]() | [作者简介]() | [实验方法]() | [调试学习代码段的N个阶段](/chapters/实验前的准备/调试学习代码段的N个阶段.md)
-- [**重要：安装Anaconda**](/chapters/环境配置/安装Anaconda.md) | [**重要：通过conda安装PyTorch**](/chapters/环境配置/通过conda安装PyTorch.md) | [**重要：通过conda安装TensorFlow**](/chapters/环境配置/通过conda安装TensorFlow.md)
+- [重要：安装Anaconda](/chapters/环境配置/安装Anaconda.md) | [重要：通过conda安装PyTorch](/chapters/环境配置/通过conda安装PyTorch.md) | [重要：通过conda安装TensorFlow](/chapters/环境配置/通过conda安装TensorFlow.md)
 
 ### 基本数据类型
 
@@ -13,7 +13,7 @@
 ### 深度学习
 
 - 基本概念
-	- [人工神经元](/chapters/深度学习/基本概念/人工神经元.md)
+	- [人工神经元](/chapters/深度学习/基本概念/人工神经元.md) | [**Code：计算出人工神经元的输出数值**](/chapters/深度学习/基本概念/Code：计算出人工神经元的输出数值.md)
 
 - 神经网络
 	- [输入图像实例的数据和神经网络的代价函数](/chapters/深度学习/神经网络/输入图像实例的数据和神经网络的代价函数.md) | [神经网络中用到的变量名和参数名的表示方法](/chapters/深度学习/神经网络/神经网络中用到的变量名和参数名的表示方法.md)
