@@ -1,4 +1,4 @@
-﻿# 在online的JupyterNotebook上使用Matplotlib绘出Sigmoid function的曲线
+# Code：计算出Sigmoid_function的输出数值
 
 ## 打开实验文件
 
@@ -22,9 +22,27 @@ plt.plot(x,sigmoid(x))
 plt.show()
 ```
 
+```python
+import numpy as np
+
+print(np.exp(-6))
+print(np.exp(-4))
+print(np.exp(-2))
+print(np.exp(0))
+
+def sigmoid(x):
+    return 1/(1+np.exp(-x))
+
+print(sigmoid(-6))
+print(sigmoid(-4))
+print(sigmoid(-2))
+print(sigmoid(0))
+print(sigmoid(2))
+print(sigmoid(4))
+print(sigmoid(6))
+```
+
 ## 参考文献及资料
 
 1. [NumPy：Quickstart tutorial (Universal Functions)](https://numpy.org/devdocs/user/quickstart.html#universal-functionsl)
 2. [matplotlib：tutorials](https://matplotlib.org/tutorials/index.html)
-
-

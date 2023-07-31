@@ -14,6 +14,8 @@
 
 - 基本概念
 	- [人工神经元](/chapters/深度学习/基本概念/人工神经元.md) | [**Code：计算出人工神经元的输出数值**](/chapters/深度学习/基本概念/Code：计算出人工神经元的输出数值.md)
+	- [多层人工神经网络](/chapters/深度学习/基本概念/多层人工神经网络.md) | [**Code：计算出多层人工神经网络的输出数值**](/chapters/深度学习/基本概念/Code：计算出多层人工神经网络的输出数值.md)
+	- [Sigmoid_function](/chapters/深度学习/基本概念/Sigmoid_function.md) | [**Code：计算出Sigmoid_function的输出数值**](/chapters/深度学习/基本概念/Code：计算出Sigmoid_function的输出数值.md)
 
 - 神经网络
 	- [输入图像实例的数据和神经网络的代价函数](/chapters/深度学习/神经网络/输入图像实例的数据和神经网络的代价函数.md) | [神经网络中用到的变量名和参数名的表示方法](/chapters/深度学习/神经网络/神经网络中用到的变量名和参数名的表示方法.md)
@@ -73,10 +75,6 @@
 	- [用Matplotlib绘出Step function (Hold,未来代码重构)](/chapters/附录/Step_function.md)
 	- [用Matplotlib绘出最小平方法的线性拟合 (Hold,未来代码重构)](/chapters/附录/用Matplotlib绘出最小平方法的线性拟合.md)
 	- [通过最小平方法的线性拟合体验Cost funciton(Wait)](/chapters/附录/通过最小平方法的线性拟合体验Cost_funciton.md)
-
-- **Sigmoid function**
-	- [在坐标纸上手绘出大致的曲线](/chapters/附录/Sigmoid_function/在坐标纸上手绘出大致的曲线.md) | [使用NumPy调试的代码](/chapters/附录/Sigmoid_function/使用NumPy调试代码.md)
-	- [在online的Jupyter Notebook上使用Matplotlib绘出的曲线](/chapters/附录/Sigmoid_function/在online的JupyterNotebook上使用Matplotlib绘出曲线.md)
 
 - **其它**
 	- [使用蒙特卡罗方法计算圆周率近似值等](/chapters/附录/使用蒙特卡罗方法计算圆周率近似值等.md)
