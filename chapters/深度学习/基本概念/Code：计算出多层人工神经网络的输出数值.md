@@ -1,5 +1,28 @@
 # Code：计算出多层人工神经网络的输出数值
 
+## 重要知识：
+
+- np.random.randn(numberOfRows, numberOfColumns)中的randn是random normal distributation的缩写组合，这个函数中的输入变量是数据的行数和列数，输出结果是一个满足正态分布的矩阵。
+
+```python
+import numpy as np
+
+x = np.random.randn(3,5)
+print(x)
+
+# y = 0.01 * np.random.randn(3,5)
+# print(y)
+```
+
+- np.zeros()的输入变量是一个touple, touple包含着数据的行数和列数, 输出结果是一个矩阵。
+
+```python
+import numpy as np
+
+x = np.zeros((2,5))
+print(x)
+```
+
 ## 打开实验文件
 
 ### 在线调试环境1
