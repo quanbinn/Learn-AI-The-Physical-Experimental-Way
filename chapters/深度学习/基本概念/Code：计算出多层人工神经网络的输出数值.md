@@ -1,5 +1,13 @@
 # Code：计算出多层人工神经网络的输出数值
 
+## 打开实验文件
+
+### 在线调试环境
+
+- 单击右方的[Jupyter Notebook](https://mybinder.org/v2/gh/ipython/ipython-in-depth/master?filepath=binder/Index.ipynb)，稍后在浏览器里会显示Jupyter Notebook的运行环境。
+- 在File的第一个下拉菜单“New Notebook” 的右侧箭头处选择“Python 3”，然后会显示一个新的页面
+- 把下面的这段python代码拷贝到这个页面“In [ ]:”右侧的空白栏中， 然后单击上方的按键“运行”。
+
 ## 重要知识：
 
 - np.random.randn(numberOfRows, numberOfColumns)中的randn是random normal distributation的缩写组合，这个函数中的输入变量是数据的行数和列数，输出结果是一个满足正态分布的矩阵。
@@ -22,14 +30,6 @@ import numpy as np
 x = np.zeros((2,5))
 print(x)
 ```
-
-## 打开实验文件
-
-### 在线调试环境1
-
-- 单击右方的[Jupyter Notebook](https://mybinder.org/v2/gh/ipython/ipython-in-depth/master?filepath=binder/Index.ipynb)，稍后在浏览器里会显示Jupyter Notebook的运行环境。
-- 在File的第一个下拉菜单“New Notebook” 的右侧箭头处选择“Python 3”，然后会显示一个新的页面
-- 把下面的这段python代码拷贝到这个页面“In [ ]:”右侧的空白栏中， 然后单击上方的按键“运行”。
 
 #### 创建1层包含n个人工神经元（hard coding）
 
