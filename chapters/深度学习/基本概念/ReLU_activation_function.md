@@ -1,4 +1,4 @@
-# ReLU activation function
+# ReLU (rectified linear unit) activation function
 
 ## 开始做
 
