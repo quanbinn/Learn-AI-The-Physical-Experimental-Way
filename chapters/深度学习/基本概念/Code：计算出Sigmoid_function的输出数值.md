@@ -45,5 +45,5 @@ print(sigmoid(6))
 ## 参考文献及资料
 
 1. [Neural Networks from Scratch](https://nnfs.io/)
-2. [Python/p005-ReLU-Activation.py](https://github.com/Sentdex/NNfSiX/blob/master/Python/p005-ReLU-Activation.py)
+2. [Python/p006-Softmax-Activation.py](https://github.com/Sentdex/NNfSiX/blob/master/Python/p006-Softmax-Activation.py)
 3. [CS231n Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/neural-networks-case-study/)

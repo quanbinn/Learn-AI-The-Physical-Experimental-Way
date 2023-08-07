@@ -7,11 +7,68 @@
 - 把下面的这段python代码拷贝到这个页面“In [ ]:”右侧的空白栏中， 然后单击上方的按键“运行”，然后会显示出相应的图形。
 
 ```python
+inputs = [0, 2, -1, 3.3, -2.7, 1.1, 2.2, -100]
 
+output = []
+for i in inputs:
+	if i > 0:
+		output.append(i)
+	else:
+		output.append(0)
+
+print(output)
+```
+
+```python
+inputs = [0, 2, -1, 3.3, -2.7, 1.1, 2.2, -100]
+output = []
+for i in inputs:
+	output.append(max(0, i))
+
+print(output)
+```
+
+```python
+import numpy as np
+
+inputs = [0, 2, -1, 3.3, -2.7, 1.1, 2.2, -100]
+output = np.maximum(0, inputs)
+
+print(output)
+```
+
+```python
+import numpy as np 
+
+np.random.seed(0)
+
+X = [[1, 2, 3, 2.5],
+     [2.0, 5.0, -1.0, 2.0],
+     [-1.5, 2.7, 3.3, -0.8]]
+
+class Layer_Dense:
+    def __init__(self, n_inputs, n_neurons):
+        self.weights = 0.10 * np.random.randn(n_inputs, n_neurons)
+        self.biases = np.zeros((1, n_neurons))
+    def forward(self, inputs):
+        self.output = np.dot(inputs, self.weights) + self.biases
+
+class Activation_ReLU:
+    def forward(self, inputs):
+        self.output = np.maximum(0, inputs)
+
+layer1 = Layer_Dense(4,5)
+activation1 = Activation_ReLU()
+
+layer1.forward(X)
+
+#print(layer1.output)
+activation1.forward(layer1.output)
+print(activation1.output)
 ```
 
 ## 参考文献及资料
 
 1. [Neural Networks from Scratch](https://nnfs.io/)
-2. [Python/p006-Softmax-Activation.py](https://github.com/Sentdex/NNfSiX/blob/master/Python/p006-Softmax-Activation.py)
+2. [Python/p005-ReLU-Activation.py](https://github.com/Sentdex/NNfSiX/blob/master/Python/p005-ReLU-Activation.py)
 3. [CS231n Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/neural-networks-case-study/)
