@@ -10,7 +10,7 @@
 
 ## 重要知识：
 
-- np.random.randn(numberOfRows, numberOfColumns)中的randn是random normal distributation的缩写组合，这个函数中的输入变量是数据的行数和列数，输出结果是一个满足正态分布的矩阵。
+- np.random.randn(numberOfRows, numberOfColumns)中的rand**n**是random **n**ormal distributation的缩写组合，这个函数中的输入变量是数据的行数和列数，输出结果是一个满足正态分布的矩阵。
 
 ```python
 import numpy as np
