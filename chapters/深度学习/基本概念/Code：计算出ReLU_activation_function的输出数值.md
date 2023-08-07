@@ -1,4 +1,4 @@
-# Code：计算出Sigmoid function的输出数值
+# Code：计算出ReLU activation function的输出数值
 
 ## 打开实验文件
 
@@ -7,43 +7,11 @@
 - 把下面的这段python代码拷贝到这个页面“In [ ]:”右侧的空白栏中， 然后单击上方的按键“运行”，然后会显示出相应的图形。
 
 ```python
-import matplotlib.pyplot as plt
-import numpy as np
 
-def sigmoid(x):
-    array = []
-    for item in x:
-        array.append(1/(1+np.exp(-item)))
-    return array
-
-x = np.arange(-6, 6.1, 2)
-
-plt.plot(x,sigmoid(x))
-plt.show()
-```
-
-```python
-import numpy as np
-
-print(np.exp(-6))
-print(np.exp(-4))
-print(np.exp(-2))
-print(np.exp(0))
-
-def sigmoid(x):
-    return 1/(1+np.exp(-x))
-
-print(sigmoid(-6))
-print(sigmoid(-4))
-print(sigmoid(-2))
-print(sigmoid(0))
-print(sigmoid(2))
-print(sigmoid(4))
-print(sigmoid(6))
 ```
 
 ## 参考文献及资料
 
 1. [Neural Networks from Scratch](https://nnfs.io/)
-2. [Python/p005-ReLU-Activation.py](https://github.com/Sentdex/NNfSiX/blob/master/Python/p005-ReLU-Activation.py)
+2. [Python/p006-Softmax-Activation.py](https://github.com/Sentdex/NNfSiX/blob/master/Python/p006-Softmax-Activation.py)
 3. [CS231n Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/neural-networks-case-study/)
