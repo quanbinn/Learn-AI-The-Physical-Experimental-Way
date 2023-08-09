@@ -1,9 +1,5 @@
 # ReLU (rectified linear unit) activation function
 
-## 开始做
-
-![](/images/深度学习/基本概念/ReLU_activation_function/1a1.jpg)
-
 ## 参考文献及资料
 
 1. 维基百科
