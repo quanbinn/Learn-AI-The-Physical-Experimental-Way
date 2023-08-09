@@ -42,6 +42,151 @@ print(sigmoid(4))
 print(sigmoid(6))
 ```
 
+```python
+layer_outputs = [4.8, 1.21, 2.385]
+
+E = 2.71828182846
+
+exp_values = []
+for output in layer_outputs:
+	exp_values.append(E ** output)  # ** - power operator in Python
+
+print('exponentiated values are:',exp_values)
+```
+
+```python
+layer_outputs = [4.8, 1.21, 2.385]
+
+E = 2.71828182846
+
+exp_values = []
+for output in layer_outputs:
+	exp_values.append(E ** output)  # ** - power operator in Python
+
+print('exponentiated values are:',exp_values)
+
+norm_base = sum(exp_values) # We sum all values
+norm_values = []
+
+for value in exp_values:
+	norm_values.append(value / norm_base)
+print('Normalized exponentiated values:')
+print(norm_values)
+print('Sum of normalized values:', sum(norm_values))
+```
+
+```python
+import numpy as np
+
+layer_outputs = [4.8, 1.21, 2.385]
+
+exp_values = np.exp(layer_outputs)
+print('exponentiated values are:', exp_values)
+
+norm_values = exp_values / np.sum(exp_values)	# Now normalize values
+print('normalized exponentiated values are:', norm_values)
+print('sum of normalized values:', np.sum(norm_values))
+```
+
+```python
+import numpy as np
+
+layer_outputs = np.array([[4.8, 1.21, 2.385],
+						  [8.9, -1.81, 0.2],
+						  [1.41, 1.051, 0.026]])
+
+print('Sum without axis')
+print(np.sum(layer_outputs))
+
+print('This will be identical to the above since default is None:')
+print(np.sum(layer_outputs, axis=None))
+
+print('Another way to think of it w/ a matrix == axis 0: columns:')
+print(np.sum(layer_outputs, axis=0))
+
+print('But we want to sum the rows instead, like this w/ raw py:')
+
+for i in layer_outputs:
+    print(sum(i))
+    
+print('So we can sum axis 1, but note the current shape:')
+print(np.sum(layer_outputs, axis=1))
+
+print('Sum axis 1, but keep the same dimensions as input:')
+print(np.sum(layer_outputs, axis=1, keepdims=True))
+```
+
+```python
+import numpy as np
+
+print(np.exp(1))
+print(np.exp(10))
+print(np.exp(100))
+
+print(np.exp(1000))
+print(np.exp(-np.inf), np.exp(0))
+```
+
+```python
+class Activation_Softmax:
+	def forward(self, inputs):
+		exp_values = np.exp(inputs - np.max(inputs, axis=1, keepdims=True))	# Get unnormalized probabilities
+		probabilities = exp_values / np.sum(exp_values, axis=1, keepdims=True)	# Normalize them for each sample
+		self.output = probabilities
+
+softmax = Activation_Softmax()
+
+softmax.forward([[1, 2, 3]])
+print(softmax.output)
+
+softmax.forward([[-2, -1, 0]]) # subtracted 3 - max from the list
+print(softmax.output)
+
+softmax.forward([[0.5, 1, 1.5]])
+print(softmax.output)
+```
+
+```python
+import numpy as np 
+
+np.random.seed(0)
+
+X = [[1, 2],
+     [2.0, 5.0],
+     [-1.5, 2.7]]
+
+class Layer_Dense:
+    def __init__(self, n_inputs, n_neurons):
+        self.weights = 0.1 * np.random.randn(n_inputs, n_neurons)
+        self.biases = np.zeros((1, n_neurons))
+    def forward(self, inputs):
+        self.output = np.dot(inputs, self.weights) + self.biases
+
+class Activation_ReLU:
+    def forward(self, inputs):
+        self.output = np.maximum(0, inputs)
+
+class Activation_Softmax:
+    def forward(self, inputs):
+        exp_values = np.exp(inputs - np.max(inputs, axis=1, keepdims=True))
+        probabilities = exp_values / np.sum(exp_values, axis=1, keepdims=True)
+        self.output = probabilities
+
+dense1 = Layer_Dense(2,3)
+activation1 = Activation_ReLU()
+
+dense2 = Layer_Dense(3, 3)
+activation2 = Activation_Softmax()
+
+dense1.forward(X)
+activation1.forward(dense1.output)
+
+dense2.forward(activation1.output)
+activation2.forward(dense2.output)
+
+print(activation2.output[:5])
+```
+
 ## 参考文献及资料
 
 1. [Neural Networks from Scratch](https://nnfs.io/)
