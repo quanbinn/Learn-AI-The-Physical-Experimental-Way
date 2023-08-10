@@ -7,23 +7,87 @@
 - 把下面的这段python代码拷贝到这个页面“In [ ]:”右侧的空白栏中， 然后单击上方的按键“运行”，然后会显示出相应的图形。
 
 ```python
+import math
 
+softmax_output = [0.7, 0.1, 0.2]	# An example output from the output layer of the neural network
+target_output = [1, 0, 0]	# Ground truth
+
+loss = -(math.log(softmax_output[0])*target_output[0] + 
+		 math.log(softmax_output[1])*target_output[1] + 
+		 math.log(softmax_output[2])*target_output[2])
+
+print(loss)
+
+print(math.log(1.))
+print(math.log(0.95))
+print(math.log(0.9))
+print(math.log(0.8))
+print('...')
+print(math.log(0.2))
+print(math.log(0.1))
+print(math.log(0.05))
+print(math.log(0.01))
 ```
 
 ```python
+import numpy as np
 
+b = 5.2
+print(np.log(b))
+print(math.e ** 1.6486586255873816)
 ```
 
 ```python
+softmax_outputs = [[0.7, 0.1, 0.2],
+                   [0.1, 0.5, 0.4],
+                   [0.02, 0.9, 0.08]]
 
+class_targets = [0, 1, 1] # dog, cat, cat
+
+for targ_idx, distribution in zip(class_targets, softmax_outputs):
+    print(distribution[targ_idx])
 ```
 
 ```python
+softmax_outputs = [[0.7, 0.1, 0.2],
+                   [0.1, 0.5, 0.4],
+                   [0.02, 0.9, 0.08]]
 
+class_targets = [0, 1, 1] # dog, cat, cat
+
+print(softmax_outputs[[0, 1, 2], class_targets])
 ```
 
 ```python
+import numpy as np
 
+softmax_outputs = [[0.7, 0.1, 0.2],
+                   [0.1, 0.5, 0.4],
+                   [0.02, 0.9, 0.08]]
+
+class_targets = np.array([[1, 0, 0],
+						  [0, 1, 0],
+						  [0, 1, 0]])
+
+# Probabilities for target values -
+# only if categorical labels
+if len(class_targets.shape) == 1:
+	correct_confidences = softmax_outputs[
+		range(len(softmax_outputs)),
+		class_targets
+]
+
+elif len(class_targets.shape) == 2:
+	correct_confidences = np.sum(
+		softmax_outputs * class_targets,
+		axis=1
+	)
+
+# Losses
+neg_log = -np.log(correct_confidences)
+
+average_loss = np.mean(neg_log)
+print(average_loss)
 ```
 
 ## 参考文献及资料
