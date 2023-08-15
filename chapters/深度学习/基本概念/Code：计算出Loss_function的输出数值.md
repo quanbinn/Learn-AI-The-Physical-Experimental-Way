@@ -6,18 +6,9 @@
 - 在File的第一个下拉菜单“New Notebook” 的右侧箭头处选择“Python 3”，然后会显示一个新的页面
 - 把下面的这段python代码拷贝到这个页面“In [ ]:”右侧的空白栏中， 然后单击上方的按键“运行”，然后会显示出相应的图形。
 
+### 这里的log函数都是以自然对数e=2.71828...为底的.
+
 ```python
-import math
-
-softmax_output = [0.7, 0.1, 0.2]	# An example output from the output layer of the neural network
-target_output = [1, 0, 0]	# Ground truth
-
-loss = -(math.log(softmax_output[0])*target_output[0] + 
-		 math.log(softmax_output[1])*target_output[1] + 
-		 math.log(softmax_output[2])*target_output[2])
-
-print(loss)
-
 print(math.log(1.))
 print(math.log(0.95))
 print(math.log(0.9))
@@ -35,6 +26,31 @@ import numpy as np
 b = 5.2
 print(np.log(b))
 print(math.e ** 1.6486586255873816)
+```
+
+```python
+import math
+
+softmax_output = [0.7, 0.1, 0.2]	# An example output from the output layer of the neural network
+target_output = [1, 0, 0]	# Ground truth
+
+print(softmax_output[0]*target_output[0])
+print(softmax_output[1]*target_output[1])
+print(softmax_output[2]*target_output[2])
+
+print(math.log(softmax_output[0]))
+print(math.log(softmax_output[1]))
+print(math.log(softmax_output[2]))
+
+print(math.log(softmax_output[0])*target_output[0])
+print(math.log(softmax_output[1])*target_output[1])
+print(math.log(softmax_output[2])*target_output[2])
+
+loss = -(math.log(softmax_output[0])*target_output[0] + 
+		 math.log(softmax_output[1])*target_output[1] + 
+		 math.log(softmax_output[2])*target_output[2])
+
+print(loss)
 ```
 
 ```python
