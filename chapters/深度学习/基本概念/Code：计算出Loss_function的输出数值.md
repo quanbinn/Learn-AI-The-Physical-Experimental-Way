@@ -18,6 +18,16 @@ print(math.log(0.2))
 print(math.log(0.1))
 print(math.log(0.05))
 print(math.log(0.01))
+print('...')
+print(math.log(0.001))
+print(math.log(0.0001))
+print(math.log(0.00001))
+print(math.log(0.000001))
+print(math.log(0.0000001))
+print(math.log(0.00000001))
+print(math.log(0.000000001))
+print(math.log(0.0000000001))
+print(math.log(0.00000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000001))
 ```
 
 ```python
@@ -65,16 +75,6 @@ for targ_idx, distribution in zip(class_targets, softmax_outputs):
 ```
 
 ```python
-softmax_outputs = [[0.7, 0.1, 0.2],
-                   [0.1, 0.5, 0.4],
-                   [0.02, 0.9, 0.08]]
-
-class_targets = [0, 1, 1] # dog, cat, cat
-
-print(softmax_outputs[[0, 1, 2], class_targets])
-```
-
-```python
 import numpy as np
 
 softmax_outputs = [[0.7, 0.1, 0.2],
@@ -106,9 +106,29 @@ average_loss = np.mean(neg_log)
 print(average_loss)
 ```
 
+```python
+import numpy as np
+
+softmax_outputs = np.array([[0.7, 0.2, 0.1],	# Probabilities of 3 samples
+							[0.5, 0.1, 0.4],
+							[0.02, 0.9, 0.08]])
+
+class_targets = np.array([0, 1, 1])	# Target (ground-truth) labels for 3 samples
+
+predictions = np.argmax(softmax_outputs, axis=1)	# Calculate values along second axis (axis of index 1)
+
+if len(class_targets.shape) == 2:	# If targets are one-hot encoded - convert them
+	class_targets = np.argmax(class_targets, axis=1)
+	
+accuracy = np.mean(predictions==class_targets)	# True evaluates to 1; False to 0
+
+print('acc:', accuracy)
+```
+
 ## 参考文献及资料
 
 1. [Neural Networks from Scratch](https://nnfs.io/)
-2. [Python/p007-Categorical-Cross-Entropy-Loss.py](https://github.com/Sentdex/NNfSiX/blob/master/Python/p007-Categorical-Cross-Entropy-Loss.py)
-3. [Python/p008-Categorical-Cross-Entropy-Loss-applied.py](https://github.com/Sentdex/NNfSiX/blob/master/Python/p008-Categorical-Cross-Entropy-Loss-applied.py)
+2. [Python/p007-Categorical-Cross-Entropy-Loss.py](https://github.com/Sentdex/NNfSiX/blob/master/Python/p007-Categorical-Cross-Entropy-Loss.py) | [Python/p008-Categorical-Cross-Entropy-Loss-applied.py](https://github.com/Sentdex/NNfSiX/blob/master/Python/p008-Categorical-Cross-Entropy-Loss-applied.py)
 4. [CS231n Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/neural-networks-case-study/)
+5. [zip(*iterables, strict=False) from **docs.python.org**](https://docs.python.org/3/library/functions.html#zip) | [Python zip() Function](https://www.w3schools.com/python/ref_func_zip.asp)
+7. [numpy.argmax](https://numpy.org/doc/stable/reference/generated/numpy.argmax.html) | [NumPy argmax()](https://www.programiz.com/python-programming/numpy/methods/argmax)
