@@ -243,7 +243,7 @@ print(dense2.dbiases)
 
 ## 参考文献及资料
 
-1. [Neural Networks from Scratch](https://nnfs.io/)
+1. [Neural Networks from Scratch in Python](https://nnfs.io/)
 2. [Python/p007-Categorical-Cross-Entropy-Loss.py](https://github.com/Sentdex/NNfSiX/blob/master/Python/p007-Categorical-Cross-Entropy-Loss.py) | [Python/p008-Categorical-Cross-Entropy-Loss-applied.py](https://github.com/Sentdex/NNfSiX/blob/master/Python/p008-Categorical-Cross-Entropy-Loss-applied.py)
 3. [CS231n Convolutional Neural Networks for Visual Recognition](https://cs231n.github.io/neural-networks-case-study/)
 

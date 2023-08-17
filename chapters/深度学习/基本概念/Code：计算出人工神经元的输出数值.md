@@ -120,6 +120,6 @@ print(layer_outputs)
 
 ## 参考文献及资料
 
-1. [Neural Networks from Scratch](https://nnfs.io/)
+1. [Neural Networks from Scratch in Python](https://nnfs.io/)
 2. [p001-Basic-Neuron-3-inputs.py](https://github.com/Sentdex/NNfSiX/blob/master/Python/p001-Basic-Neuron-3-inputs.py) | [p002-Basic-Neuron-Layer.py](https://github.com/Sentdex/NNfSiX/blob/master/Python/p002-Basic-Neuron-Layer.py)
 3. [p003-Dot-Product.py](https://github.com/Sentdex/NNfSiX/blob/master/Python/p003-Dot-Product.py)
