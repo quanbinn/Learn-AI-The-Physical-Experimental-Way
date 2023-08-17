@@ -18,6 +18,7 @@
 	- [ReLU activation function](/chapters/深度学习/基本概念/ReLU_activation_function.md) | [**Code：计算出ReLU activation function的输出数值**](/chapters/深度学习/基本概念/Code：计算出ReLU_activation_function的输出数值.md)
 	- [Sigmoid function](/chapters/深度学习/基本概念/Sigmoid_function.md) | [**Code：计算出Sigmoid function的输出数值**](/chapters/深度学习/基本概念/Code：计算出Sigmoid_function的输出数值.md)
 	- [Loss function](/chapters/深度学习/基本概念/Loss_function.md) | [**Code：计算出Loss function的输出数值**](/chapters/深度学习/基本概念/Code：计算出Loss_function的输出数值.md)
+	- [Backpropagation](/chapters/深度学习/基本概念/Backpropagation.md) | [**Code：计算出特定的weight和bias的数值**](/chapters/深度学习/基本概念/Code：计算出特定的weight和bias的数值.md)
 
 - 神经网络
 	- [输入图像实例的数据和神经网络的损失函数](/chapters/深度学习/神经网络/输入图像实例的数据和神经网络的损失函数.md) | [神经网络中用到的变量名和参数名的表示方法](/chapters/深度学习/神经网络/神经网络中用到的变量名和参数名的表示方法.md)
