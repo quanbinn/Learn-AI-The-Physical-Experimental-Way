@@ -6,6 +6,16 @@
 - [**重要：首先购买实验道具**]() | [作者简介]() | [实验方法]() | [调试学习代码段的N个阶段](/chapters/实验前的准备/调试学习代码段的N个阶段.md)
 - [重要：安装Anaconda](/chapters/环境配置/安装Anaconda.md) | [重要：通过conda安装PyTorch](/chapters/环境配置/通过conda安装PyTorch.md) | [重要：通过conda安装TensorFlow](/chapters/环境配置/通过conda安装TensorFlow.md)
 
+### 用NumPy操作矩阵及进行基本运算
+- 随机函数: [random.randint()](/chapters/用NumPy操作矩阵及进行基本运算/随机函数/random.randint().md) | [random.randn()](/chapters/用NumPy操作矩阵及进行基本运算/随机函数/random.randn().md) | [random.seed()](/chapters/用NumPy操作矩阵及进行基本运算/随机函数/random.seed().md) 
+- 数组创建和操作函数: [array()](/chapters/用NumPy操作矩阵及进行基本运算/数组创建和操作函数/array().md) | [zeros()](/chapters/用NumPy操作矩阵及进行基本运算/数组创建和操作函数/zeros().md) | [ones()](/chapters/用NumPy操作矩阵及进行基本运算/数组创建和操作函数/ones().md) | [arange()](/chapters/用NumPy操作矩阵及进行基本运算/数组创建和操作函数/arange().md) | [linspace()](/chapters/用NumPy操作矩阵及进行基本运算/数组创建和操作函数/linspace().md) | [reshape()](/chapters/用NumPy操作矩阵及进行基本运算/数组创建和操作函数/reshape().md) | [shape()](/chapters/用NumPy操作矩阵及进行基本运算/数组创建和操作函数/shape().md) | [clip()](/chapters/用NumPy操作矩阵及进行基本运算/数组创建和操作函数/clip().md) | [.T](/chapters/用NumPy操作矩阵及进行基本运算/数组创建和操作函数/.T.md)
+- 数组运算函数: [add()](/chapters/用NumPy操作矩阵及进行基本运算/数组运算函数/add().md) | [subtract()](/chapters/用NumPy操作矩阵及进行基本运算/数组运算函数/subtract().md) | [multiply()](/chapters/用NumPy操作矩阵及进行基本运算/数组运算函数/multiply().md) | [divide()](/chapters/用NumPy操作矩阵及进行基本运算/数组运算函数/divide().md) | [inner()](/chapters/用NumPy操作矩阵及进行基本运算/数组运算函数/inner().md) | [dot()](/chapters/用NumPy操作矩阵及进行基本运算/数组运算函数/dot().md) | [sum()](/chapters/用NumPy操作矩阵及进行基本运算/数组运算函数/sum().md) | [dot()](/chapters/用NumPy操作矩阵及进行基本运算/数组运算函数/dot().md) | [mean()](/chapters/用NumPy操作矩阵及进行基本运算/数组运算函数/mean().md)
+- 数组索引和切片: [arrayName[i]](/chapters/用NumPy操作矩阵及进行基本运算/数组索引和切片/arrayName[i].md) | [arrayName[start:end]](/chapters/用NumPy操作矩阵及进行基本运算/数组索引和切片/arrayName[start:end].md) | [arrayName[:, col_num]](/chapters/用NumPy操作矩阵及进行基本运算/数组索引和切片/arrayName[:, col_num].md) | [arrayName[condition]](/chapters/用NumPy操作矩阵及进行基本运算/数组索引和切片/arrayName[condition].md)
+- 计算函数: [exp()](/chapters/用NumPy操作矩阵及进行基本运算/计算函数/exp().md) | [log()](/chapters/用NumPy操作矩阵及进行基本运算/计算函数/log().md) | [sqrt()](/chapters/用NumPy操作矩阵及进行基本运算/计算函数/sqrt().md) | [power()](/chapters/用NumPy操作矩阵及进行基本运算/计算函数/power().md) 
+- 统计函数： [median()](/chapters/用NumPy操作矩阵及进行基本运算/统计函数/median().md) |
+ [median()](/chapters/用NumPy操作矩阵及进行基本运算/统计函数/median().md) | [var()](/chapters/用NumPy操作矩阵及进行基本运算/统计函数/var().md) | [std()](/chapters/用NumPy操作矩阵及进行基本运算/统计函数/std().md) | [min()](/chapters/用NumPy操作矩阵及进行基本运算/统计函数/min().md) | [max()](/chapters/用NumPy操作矩阵及进行基本运算/统计函数/max().md) | [maximum()](/chapters/用NumPy操作矩阵及进行基本运算/统计函数/maximum().md) | [argmax()](/chapters/用NumPy操作矩阵及进行基本运算/统计函数/argmax().md)
+- 其他： [range()](/chapters/用NumPy操作矩阵及进行基本运算/其他/range().md)
+
 ### 基本数据类型
 
 - 图像： [1张图像中的100个RGB值](/chapters/基本数据类型/图像/1张图像中的100个RGB值.md) | [在线体验RGB与HSV之间的相互转换](/chapters/基本数据类型/图像/在线体验RGB与HSV之间的相互转换.md) | [在线体验1张图片的RGB颜色空间](/chapters/基本数据类型/图像/在线体验1张图片的RGB颜色空间.md)
