@@ -1,4 +1,4 @@
-# .T
+# random.randn()
 
 ## 本质意义： 。
 
@@ -17,8 +17,11 @@
 
 ```
 
+```python
+
+```
+
 ## 参考文献及资料
 
-1. [numpy.ndarray.T](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.T.html)
-
-
+1. 维基百科
+	- [](https://numpy.org/doc/stable/reference/random/generated/numpy.random.randn.html#numpy.random.randn)

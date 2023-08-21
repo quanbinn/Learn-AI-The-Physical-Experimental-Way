@@ -1,4 +1,4 @@
-# .T
+# log()
 
 ## 本质意义： 。
 
@@ -17,8 +17,12 @@
 
 ```
 
+```python
+
+```
+
 ## 参考文献及资料
 
-1. [numpy.ndarray.T](https://numpy.org/doc/stable/reference/generated/numpy.ndarray.T.html)
+1. [](https://numpy.org/doc/stable/reference/generated/numpy.log.html#numpy.log)
 
 
