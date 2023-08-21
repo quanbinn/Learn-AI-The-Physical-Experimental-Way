@@ -7,6 +7,7 @@
 - [重要：安装Anaconda](/chapters/环境配置/安装Anaconda.md) | [重要：通过conda安装PyTorch](/chapters/环境配置/通过conda安装PyTorch.md) | [重要：通过conda安装TensorFlow](/chapters/环境配置/通过conda安装TensorFlow.md)
 
 ### 用NumPy操作矩阵及进行基本运算
+
 - 随机函数: [random.randint()](/chapters/用NumPy操作矩阵及进行基本运算/随机函数/random.randint().md) | [random.randn()](/chapters/用NumPy操作矩阵及进行基本运算/随机函数/random.randn().md) | [random.seed()](/chapters/用NumPy操作矩阵及进行基本运算/随机函数/random.seed().md) 
 - 数组创建和操作函数: [array()](/chapters/用NumPy操作矩阵及进行基本运算/数组创建和操作函数/array().md) | [zeros()](/chapters/用NumPy操作矩阵及进行基本运算/数组创建和操作函数/zeros().md) | [ones()](/chapters/用NumPy操作矩阵及进行基本运算/数组创建和操作函数/ones().md) | [arange()](/chapters/用NumPy操作矩阵及进行基本运算/数组创建和操作函数/arange().md) | [linspace()](/chapters/用NumPy操作矩阵及进行基本运算/数组创建和操作函数/linspace().md) | [reshape()](/chapters/用NumPy操作矩阵及进行基本运算/数组创建和操作函数/reshape().md) | [shape()](/chapters/用NumPy操作矩阵及进行基本运算/数组创建和操作函数/shape().md) | [clip()](/chapters/用NumPy操作矩阵及进行基本运算/数组创建和操作函数/clip().md) | [.T](/chapters/用NumPy操作矩阵及进行基本运算/数组创建和操作函数/.T.md)
 - 数组运算函数: [add()](/chapters/用NumPy操作矩阵及进行基本运算/数组运算函数/add().md) | [subtract()](/chapters/用NumPy操作矩阵及进行基本运算/数组运算函数/subtract().md) | [multiply()](/chapters/用NumPy操作矩阵及进行基本运算/数组运算函数/multiply().md) | [divide()](/chapters/用NumPy操作矩阵及进行基本运算/数组运算函数/divide().md) | [inner()](/chapters/用NumPy操作矩阵及进行基本运算/数组运算函数/inner().md) | [dot()](/chapters/用NumPy操作矩阵及进行基本运算/数组运算函数/dot().md) | [sum()](/chapters/用NumPy操作矩阵及进行基本运算/数组运算函数/sum().md) | [dot()](/chapters/用NumPy操作矩阵及进行基本运算/数组运算函数/dot().md) | [mean()](/chapters/用NumPy操作矩阵及进行基本运算/数组运算函数/mean().md)
@@ -78,17 +79,13 @@
 	- [选择](/chapters/机器学习/遗传算法/选择.md) | [交叉](/chapters/机器学习/遗传算法/交叉.md) | [变异](/chapters/机器学习/遗传算法/变异.md)
 
 ### 附录
-
-- **用NumPy操作矩阵及进行基本运算等**
-	- [生成随机数](/chapters/附录/生成随机数.md) | [用arange()创建等差数组](/chapters/附录/用arange()创建等差数组.md)
-	- [两个向量的数量积(内积)](/chapters/附录/两个向量的数量积(内积).md) | [矩阵乘法](/chapters/附录/矩阵乘法.md)
-	 
-- **在线体验导数/正态分布/最小平方法等**
+ 
+- 在线体验导数/正态分布/最小平方法等
 	- [计算偏导数](/chapters/附录/计算偏导数.md) | [在Excel里生成正态分布的随机数(Wait)](/chapters/附录/在Excel里生成正态分布的随机数.md)
 	- [用Matplotlib绘出Step function (Hold,未来代码重构)](/chapters/附录/Step_function.md)
 	- [用Matplotlib绘出最小平方法的线性拟合 (Hold,未来代码重构)](/chapters/附录/用Matplotlib绘出最小平方法的线性拟合.md)
 	- [通过最小平方法的线性拟合体验Cost funciton(Wait)](/chapters/附录/通过最小平方法的线性拟合体验Cost_funciton.md)
 
-- **其它**
+- 其它
 	- [使用蒙特卡罗方法计算圆周率近似值等](/chapters/附录/使用蒙特卡罗方法计算圆周率近似值等.md)
 
