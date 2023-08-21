@@ -14,15 +14,20 @@
 - 把下面的这段python代码拷贝到这个页面左侧的空白栏中， 然后单击上方的按键“Run”。
 
 ```python
+number_of_iteration = 5
 
-```
-
-```python
-
+for i in range(number_of_iteration):
+    print("第",i+1,"次运行迭代任务中的第1步")    
+    print("第",i+1,"次运行迭代任务中的第2步")    
+    print("第",i+1,"次运行迭代任务中的第3步")    
+    print("第",i+1,"次运行-----------------")
+    print("第",i+1,"次运行迭代任务中的第n步")
+    print("第",i+1,"次运行完迭代任务中的所有步骤")    
+    print("-----------------------------------------")
 ```
 
 ## 参考文献及资料
 
-1. [numpy.arange([start, ]stop, [step, ]dtype=None, *, like=None)](https://numpy.org/doc/stable/reference/generated/numpy.arange.html#numpy.arange)
+1. [Ranges](https://docs.python.org/3/library/stdtypes.html#ranges)
 
 
