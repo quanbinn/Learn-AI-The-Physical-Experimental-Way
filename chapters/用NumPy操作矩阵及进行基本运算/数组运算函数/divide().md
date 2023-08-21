@@ -23,6 +23,6 @@
 
 ## 参考文献及资料
 
-1. [](https://numpy.org/doc/stable/reference/generated/numpy.divide.html#numpy.divide)
+1. [numpy.divide(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature, extobj]) = <ufunc 'divide'>](https://numpy.org/doc/stable/reference/generated/numpy.divide.html#numpy.divide)
 
 

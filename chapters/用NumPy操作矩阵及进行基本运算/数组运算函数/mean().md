@@ -23,6 +23,6 @@
 
 ## 参考文献及资料
 
-1. [](https://numpy.org/doc/stable/reference/generated/numpy.mean.html#numpy.mean)
+1. [numpy.mean(a, axis=None, dtype=None, out=None, keepdims=<no value>, *, where=<no value>)](https://numpy.org/doc/stable/reference/generated/numpy.mean.html#numpy.mean)
 
 

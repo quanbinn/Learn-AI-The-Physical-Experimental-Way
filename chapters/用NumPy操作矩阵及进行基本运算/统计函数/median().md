@@ -23,6 +23,6 @@
 
 ## 参考文献及资料
 
-1. [](https://numpy.org/doc/stable/reference/generated/numpy.median.html#numpy.median)
+1. [numpy.median(a, axis=None, out=None, overwrite_input=False, keepdims=False)](https://numpy.org/doc/stable/reference/generated/numpy.median.html#numpy.median)
 
 

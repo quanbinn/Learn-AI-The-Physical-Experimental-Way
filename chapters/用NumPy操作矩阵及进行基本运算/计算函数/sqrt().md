@@ -23,6 +23,6 @@
 
 ## 参考文献及资料
 
-1. [](https://numpy.org/doc/stable/reference/generated/numpy.sqrt.html#numpy.sqrt)
+1. [numpy.sqrt(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature, extobj]) = <ufunc 'sqrt'>](https://numpy.org/doc/stable/reference/generated/numpy.sqrt.html#numpy.sqrt)
 
 

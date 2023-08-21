@@ -23,6 +23,6 @@
 
 ## 参考文献及资料
 
-1. [](https://numpy.org/doc/stable/reference/generated/numpy.arange.html#numpy.arange)
+1. [numpy.arange([start, ]stop, [step, ]dtype=None, *, like=None)](https://numpy.org/doc/stable/reference/generated/numpy.arange.html#numpy.arange)
 
 

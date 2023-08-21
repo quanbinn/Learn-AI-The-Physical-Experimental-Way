@@ -23,6 +23,6 @@
 
 ## 参考文献及资料
 
-1. [](https://numpy.org/doc/stable/reference/generated/numpy.linspace.html#numpy.linspace)
+1. [numpy.linspace(start, stop, num=50, endpoint=True, retstep=False, dtype=None, axis=0)](https://numpy.org/doc/stable/reference/generated/numpy.linspace.html#numpy.linspace)
 
 

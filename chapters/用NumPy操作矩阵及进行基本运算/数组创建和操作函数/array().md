@@ -23,6 +23,6 @@
 
 ## 参考文献及资料
 
-1. [numpy.array](https://numpy.org/doc/stable/reference/generated/numpy.array.html#numpy.array)
+1. [numpy.array(object, dtype=None, *, copy=True, order='K', subok=False, ndmin=0, like=None)](https://numpy.org/doc/stable/reference/generated/numpy.array.html#numpy.array)
 
 

@@ -23,6 +23,6 @@
 
 ## 参考文献及资料
 
-1. [](https://numpy.org/doc/stable/reference/generated/numpy.ones.html#numpy.ones)
+1. [numpy.ones(shape, dtype=None, order='C', *, like=None)](https://numpy.org/doc/stable/reference/generated/numpy.ones.html#numpy.ones)
 
 

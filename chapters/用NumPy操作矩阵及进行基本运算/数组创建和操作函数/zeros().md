@@ -23,6 +23,6 @@
 
 ## 参考文献及资料
 
-1. [](https://numpy.org/doc/stable/reference/generated/numpy.zeros.html#numpy.zeros)
+1. [numpy.zeros(shape, dtype=float, order='C', *, like=None)](https://numpy.org/doc/stable/reference/generated/numpy.zeros.html#numpy.zeros)
 
 

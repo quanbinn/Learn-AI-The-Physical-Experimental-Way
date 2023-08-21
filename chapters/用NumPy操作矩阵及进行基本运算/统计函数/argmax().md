@@ -23,6 +23,7 @@
 
 ## 参考文献及资料
 
-1. [](https://numpy.org/doc/stable/reference/generated/numpy.argmax.html#numpy.argmax)
+1. [numpy.argmax(a, axis=None, out=None, *, keepdims=<no value>)[source]
+](https://numpy.org/doc/stable/reference/generated/numpy.argmax.html#numpy.argmax)
 
 

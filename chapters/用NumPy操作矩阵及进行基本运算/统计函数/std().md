@@ -23,6 +23,6 @@
 
 ## 参考文献及资料
 
-1. [](https://numpy.org/doc/stable/reference/generated/numpy.std.html#numpy.std)
+1. [numpy.std(a, axis=None, dtype=None, out=None, ddof=0, keepdims=<no value>, *, where=<no value>)](https://numpy.org/doc/stable/reference/generated/numpy.std.html#numpy.std)
 
 

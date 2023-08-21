@@ -23,6 +23,6 @@
 
 ## 参考文献及资料
 
-1. [](https://numpy.org/doc/stable/reference/generated/numpy.reshape.html#numpy.reshape)
+1. [numpy.reshape(a, newshape, order='C')](https://numpy.org/doc/stable/reference/generated/numpy.reshape.html#numpy.reshape)
 
 

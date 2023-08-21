@@ -23,6 +23,6 @@
 
 ## 参考文献及资料
 
-1. [](https://numpy.org/doc/stable/reference/generated/numpy.max.html#numpy.max)
+1. [numpy.max(a, axis=None, out=None, keepdims=<no value>, initial=<no value>, where=<no value>)](https://numpy.org/doc/stable/reference/generated/numpy.max.html#numpy.max)
 
 

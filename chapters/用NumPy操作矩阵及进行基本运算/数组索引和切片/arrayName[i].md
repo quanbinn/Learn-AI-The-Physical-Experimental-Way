@@ -23,6 +23,6 @@
 
 ## 参考文献及资料
 
-1. [](https://numpy.org/doc/stable/user/basics.indexing.html#single-element-indexing)
+1. [Single element indexing](https://numpy.org/doc/stable/user/basics.indexing.html#single-element-indexing)
 
 

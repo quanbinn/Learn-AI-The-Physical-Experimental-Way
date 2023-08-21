@@ -23,6 +23,6 @@
 
 ## 参考文献及资料
 
-1. [](https://numpy.org/doc/stable/reference/generated/numpy.shape.html#numpy.shape)
+1. [numpy.shape(a)](https://numpy.org/doc/stable/reference/generated/numpy.shape.html#numpy.shape)
 
 

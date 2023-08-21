@@ -24,4 +24,4 @@
 ## 参考文献及资料
 
 1. 维基百科
-	- [](https://numpy.org/doc/stable/reference/random/generated/numpy.random.randn.html#numpy.random.randn)
+	- [random.randn(d0, d1, ..., dn)](https://numpy.org/doc/stable/reference/random/generated/numpy.random.randn.html#numpy.random.randn)

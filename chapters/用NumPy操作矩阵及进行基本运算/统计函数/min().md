@@ -23,6 +23,6 @@
 
 ## 参考文献及资料
 
-1. [](https://numpy.org/doc/stable/reference/generated/numpy.min.html#numpy.min)
+1. [numpy.min(a, axis=None, out=None, keepdims=<no value>, initial=<no value>, where=<no value>)](https://numpy.org/doc/stable/reference/generated/numpy.min.html#numpy.min)
 
 

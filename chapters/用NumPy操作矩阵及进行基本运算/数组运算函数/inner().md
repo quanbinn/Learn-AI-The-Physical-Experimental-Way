@@ -23,6 +23,6 @@
 
 ## 参考文献及资料
 
-1. [](https://numpy.org/doc/stable/reference/generated/numpy.inner.html#numpy.inner)
+1. [numpy.inner(a, b, /)](https://numpy.org/doc/stable/reference/generated/numpy.inner.html#numpy.inner)
 
 

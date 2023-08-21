@@ -23,6 +23,6 @@
 
 ## 参考文献及资料
 
-1. [](https://numpy.org/doc/stable/reference/generated/numpy.clip.html#numpy.clip)
+1. [numpy.clip(a, a_min, a_max, out=None, **kwargs)](https://numpy.org/doc/stable/reference/generated/numpy.clip.html#numpy.clip)
 
 

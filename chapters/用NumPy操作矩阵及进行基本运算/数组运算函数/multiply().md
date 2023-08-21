@@ -23,6 +23,6 @@
 
 ## 参考文献及资料
 
-1. [](https://numpy.org/doc/stable/reference/generated/numpy.multiply.html#numpy.multiply)
+1. [numpy.multiply(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature, extobj]) = <ufunc 'multiply'>](https://numpy.org/doc/stable/reference/generated/numpy.multiply.html#numpy.multiply)
 
 

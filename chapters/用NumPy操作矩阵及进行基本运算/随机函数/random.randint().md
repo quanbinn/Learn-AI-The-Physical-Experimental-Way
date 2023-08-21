@@ -24,4 +24,4 @@
 ## 参考文献及资料
 
 1. 维基百科
-	- [](https://numpy.org/doc/stable/reference/random/generated/numpy.random.randint.html#numpy.random.randint)
+	- [random.randint(low, high=None, size=None, dtype=int)](https://numpy.org/doc/stable/reference/random/generated/numpy.random.randint.html#numpy.random.randint)

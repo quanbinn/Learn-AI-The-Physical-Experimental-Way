@@ -23,6 +23,6 @@
 
 ## 参考文献及资料
 
-1. [](https://numpy.org/doc/stable/reference/generated/numpy.subtract.html#numpy.subtract)
+1. [numpy.subtract(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature, extobj]) = <ufunc 'subtract'>](https://numpy.org/doc/stable/reference/generated/numpy.subtract.html#numpy.subtract)
 
 

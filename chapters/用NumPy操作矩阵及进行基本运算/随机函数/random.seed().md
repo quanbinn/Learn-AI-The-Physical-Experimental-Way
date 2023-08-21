@@ -24,4 +24,4 @@
 ## 参考文献及资料
 
 1. 维基百科
-	- [](https://numpy.org/doc/stable/reference/random/generated/numpy.random.seed.html#numpy.random.seed)
+	- [random.seed(seed=None)](https://numpy.org/doc/stable/reference/random/generated/numpy.random.seed.html#numpy.random.seed)

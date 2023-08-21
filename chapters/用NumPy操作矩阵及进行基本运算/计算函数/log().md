@@ -23,6 +23,6 @@
 
 ## 参考文献及资料
 
-1. [](https://numpy.org/doc/stable/reference/generated/numpy.log.html#numpy.log)
+1. [numpy.log(x, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature, extobj]) = <ufunc 'log'>](https://numpy.org/doc/stable/reference/generated/numpy.log.html#numpy.log)
 
 

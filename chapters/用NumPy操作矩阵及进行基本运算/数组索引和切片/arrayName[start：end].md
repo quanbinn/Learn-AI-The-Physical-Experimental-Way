@@ -23,6 +23,6 @@
 
 ## 参考文献及资料
 
-1. [](https://numpy.org/doc/stable/user/basics.indexing.html#slicing-and-striding)
+1. [Slicing and striding](https://numpy.org/doc/stable/user/basics.indexing.html#slicing-and-striding)
 
 
