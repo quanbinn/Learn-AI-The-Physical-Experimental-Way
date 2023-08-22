@@ -25,5 +25,6 @@
 
 1. [numpy.array(object, dtype=None, *, copy=True, order='K', subok=False, ndmin=0, like=None)](https://numpy.org/doc/stable/reference/generated/numpy.array.html#numpy.array)
 2. [The N-dimensional array (ndarray)](https://numpy.org/doc/stable/reference/arrays.ndarray.html) | [N维数组（ndarray）](https://www.numpy.org.cn/reference/arrays/ndarray.html)
+3. [NumPy: N-dimensional array (ndarray)](https://www.w3resource.com/numpy/ndarray/index.php#:~:text=N-dimensional%20array%20An%20ndarray%20is%20a%20%28usually%20fixed-size%29,integers%20that%20specify%20the%20sizes%20of%20each%20dimension.)
 
 
