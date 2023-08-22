@@ -24,5 +24,6 @@
 ## 参考文献及资料
 
 1. [numpy.array(object, dtype=None, *, copy=True, order='K', subok=False, ndmin=0, like=None)](https://numpy.org/doc/stable/reference/generated/numpy.array.html#numpy.array)
+2. [The N-dimensional array (ndarray)](https://numpy.org/doc/stable/reference/arrays.ndarray.html) | [N维数组（ndarray）](https://www.numpy.org.cn/reference/arrays/ndarray.html)
 
 
