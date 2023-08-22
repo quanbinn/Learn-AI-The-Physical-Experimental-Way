@@ -32,6 +32,15 @@ for i in range(times):
     print("第",i+1,"次x的随机值是: ",x, ". y的随机值是: ",y)
 ```
 
+```python
+import numpy as np
+
+print(np.random.randint(2, size=10))
+print(np.random.randint(1, size=10))
+
+print(np.random.randint(5, size=(2, 4)))
+```
+
 ## 参考文献及资料
 
 1. [random.randint(low, high=None, size=None, dtype=int)](https://numpy.org/doc/stable/reference/random/generated/numpy.random.randint.html#numpy.random.randint)
