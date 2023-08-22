@@ -14,11 +14,18 @@
 - 把下面的这段python代码拷贝到这个页面左侧的空白栏中， 然后单击上方的按键“Run”。
 
 ```python
+import numpy as np
 
-```
+print(np.shape(np.eye(3)))
 
-```python
+print(np.shape([[1, 3]]))
+print(np.shape([0]))
+print(np.shape([0]))
 
+a = np.array([(1, 2), (3, 4), (5, 6)],
+             dtype=[('x', 'i4'), ('y', 'i4')])
+print(np.shape(a))
+print(a.shape)
 ```
 
 ## 参考文献及资料

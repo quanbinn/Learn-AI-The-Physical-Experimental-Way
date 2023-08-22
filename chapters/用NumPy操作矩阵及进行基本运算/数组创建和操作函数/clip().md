@@ -14,11 +14,17 @@
 - 把下面的这段python代码拷贝到这个页面左侧的空白栏中， 然后单击上方的按键“Run”。
 
 ```python
+import numpy as np
 
-```
+a = np.arange(10)
+print(a)
+print(np.clip(a, 1, 8))
+print(np.clip(a, 8, 1))
+print(a)
 
-```python
-
+a = np.arange(10)
+print(a)
+print(np.clip(a, [3, 4, 1, 1, 1, 4, 4, 4, 4, 4], 8))
 ```
 
 ## 参考文献及资料

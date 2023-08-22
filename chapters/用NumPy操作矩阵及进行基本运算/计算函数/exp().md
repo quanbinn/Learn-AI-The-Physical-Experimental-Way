@@ -14,11 +14,23 @@
 - 把下面的这段python代码拷贝到这个页面左侧的空白栏中， 然后单击上方的按键“Run”。
 
 ```python
+import numpy as np
+import matplotlib.pyplot as plt
 
-```
+x = np.linspace(-2*np.pi, 2*np.pi, 100)
+xx = x + 1j * x[:, np.newaxis] # a + ib over complex plane
+out = np.exp(xx)
 
-```python
+plt.subplot(121)
+plt.imshow(np.abs(out),
+           extent=[-2*np.pi, 2*np.pi, -2*np.pi, 2*np.pi], cmap='gray')
+plt.title('Magnitude of exp(x)')
 
+plt.subplot(122)
+plt.imshow(np.angle(out),
+           extent=[-2*np.pi, 2*np.pi, -2*np.pi, 2*np.pi], cmap='hsv')
+plt.title('Phase (angle) of exp(x)')
+plt.show()
 ```
 
 ## 参考文献及资料

@@ -14,11 +14,21 @@
 - 把下面的这段python代码拷贝到这个页面左侧的空白栏中， 然后单击上方的按键“Run”。
 
 ```python
+import numpy as np
 
-```
+print(np.array([1, 2, 3]))
+print(np.array([1, 2, 3.0]))
+print(np.array([[1, 2], [3, 4]]))
 
-```python
+print(np.array([1, 2, 3], ndmin=2))
+print(np.array([1, 2, 3], dtype=complex))
+print(np.array([1, 2, 3], dtype=complex))
 
+x = np.array([(1,2),(3,4)],dtype=[('a','<i4'),('b','<i4')])
+print(x['a'])
+
+print(np.array(np.mat('1 2; 3 4')))
+print(np.array(np.mat('1 2; 3 4'), subok=True))
 ```
 
 ## 参考文献及资料

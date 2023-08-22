@@ -14,11 +14,19 @@
 - 把下面的这段python代码拷贝到这个页面左侧的空白栏中， 然后单击上方的按键“Run”。
 
 ```python
+import numpy as np
 
-```
+a = np.arange(6).reshape((3, 2))
+print(a)
 
-```python
+print(np.reshape(a, (2, 3))) # C-like index ordering	
+print(np.reshape(np.ravel(a), (2, 3))) # equivalent to C ravel then C reshape
+print(np.reshape(a, (2, 3), order='F')) # Fortran-like index ordering
+print(np.reshape(np.ravel(a, order='F'), (2, 3), order='F'))
 
+a = np.array([[1,2,3], [4,5,6]])
+print(np.reshape(a, 6))
+print(np.reshape(a, (3,-1))) # the unspecified value is inferred to be 2
 ```
 
 ## 参考文献及资料

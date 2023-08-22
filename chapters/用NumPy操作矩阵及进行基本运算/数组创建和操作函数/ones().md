@@ -14,11 +14,14 @@
 - 把下面的这段python代码拷贝到这个页面左侧的空白栏中， 然后单击上方的按键“Run”。
 
 ```python
+import numpy as np
 
-```
+print(np.ones(5))
+print(np.ones((5,), dtype=int))
 
-```python
-
+print(np.ones((2, 1)))
+s = (2,2)
+print(np.ones(s))
 ```
 
 ## 参考文献及资料

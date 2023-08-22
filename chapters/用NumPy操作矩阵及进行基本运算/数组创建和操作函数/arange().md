@@ -14,11 +14,22 @@
 - 把下面的这段python代码拷贝到这个页面左侧的空白栏中， 然后单击上方的按键“Run”。
 
 ```python
+import numpy as np
 
-```
+print(np.arange(0, 5, 0.5, dtype=int))
+print(np.arange(-3, 3, 0.5, dtype=int))
 
-```python
+power = 40
+modulo = 10000
+x1 = [(n ** power) % modulo for n in range(8)]
+x2 = [(n ** power) % modulo for n in np.arange(8)]
+print(x1)
+print(x2)
 
+print(np.arange(3))
+print(np.arange(3.0))
+print(np.arange(3,7))
+print(np.arange(3,7,2))
 ```
 
 ## 参考文献及资料

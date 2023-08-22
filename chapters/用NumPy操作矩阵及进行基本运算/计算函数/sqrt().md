@@ -14,11 +14,11 @@
 - 把下面的这段python代码拷贝到这个页面左侧的空白栏中， 然后单击上方的按键“Run”。
 
 ```python
+import numpy as np
 
-```
-
-```python
-
+print(np.sqrt([1,4,9]))
+print(np.sqrt([4, -1, -3+4J]))
+print(np.sqrt([4, -1, np.inf]))
 ```
 
 ## 参考文献及资料
