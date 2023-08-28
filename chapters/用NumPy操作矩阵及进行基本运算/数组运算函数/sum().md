@@ -14,11 +14,19 @@
 - 把下面的这段python代码拷贝到这个页面左侧的空白栏中， 然后单击上方的按键“Run”。
 
 ```python
+import numpy as np
 
-```
+print(np.sum([]))
 
-```python
+print(np.sum([0.5, 1.5]))
+print(np.sum([0.5, 0.7, 0.2, 1.5], dtype=np.int32))
 
+print(np.sum([[0, 1], [0, 5]]))
+print(np.sum([[0, 1], [0, 5]], axis=0))
+print(np.sum([[0, 1], [0, 5]], axis=1))
+
+print(np.ones(128, dtype=np.int8).sum(dtype=np.int8))
+print(np.sum([10], initial=5))
 ```
 
 ## 参考文献及资料

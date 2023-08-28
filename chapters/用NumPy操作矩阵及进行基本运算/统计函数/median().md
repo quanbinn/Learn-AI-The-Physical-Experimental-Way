@@ -14,11 +14,27 @@
 - 把下面的这段python代码拷贝到这个页面左侧的空白栏中， 然后单击上方的按键“Run”。
 
 ```python
+import numpy as np
 
-```
+a = np.array([[10, 7, 4], [3, 2, 1]])
+print(a)
 
-```python
+print(np.median(a))
+print(np.median(a, axis=0))
+print(np.median(a, axis=1))
 
+m = np.median(a, axis=0)
+out = np.zeros_like(m)
+print(np.median(a, axis=0, out=m))
+print(m)
+
+b = a.copy()
+print(np.median(b, axis=1, overwrite_input=True))
+
+assert not np.all(a==b)
+b = a.copy()
+print(np.median(b, axis=None, overwrite_input=True))
+assert not np.all(a==b)
 ```
 
 ## 参考文献及资料

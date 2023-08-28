@@ -14,11 +14,17 @@
 - 把下面的这段python代码拷贝到这个页面左侧的空白栏中， 然后单击上方的按键“Run”。
 
 ```python
+import numpy as np
 
-```
+print(np.add(1.0, 4.0))
 
-```python
+x1 = np.arange(9.0).reshape((3, 3))
+x2 = np.arange(3.0)
+print(np.add(x1, x2))
 
+x1 = np.arange(9.0).reshape((3, 3))
+x2 = np.arange(3.0)
+print(x1 + x2)
 ```
 
 ## 参考文献及资料

@@ -14,11 +14,13 @@
 - 把下面的这段python代码拷贝到这个页面左侧的空白栏中， 然后单击上方的按键“Run”。
 
 ```python
+import numpy as np
 
-```
+print(np.maximum([2, 3, 4], [1, 5, 2]))
+print(np.maximum(np.eye(2), [0.5, 2])) # broadcasting
 
-```python
-
+print(np.maximum([np.nan, 0, np.nan], [0, np.nan, np.nan]))
+print(np.maximum(np.Inf, 1))
 ```
 
 ## 参考文献及资料

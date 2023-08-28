@@ -14,11 +14,24 @@
 - 把下面的这段python代码拷贝到这个页面左侧的空白栏中， 然后单击上方的按键“Run”。
 
 ```python
+import numpy as np
 
-```
+a = np.arange(4).reshape((2,2))
+print(a)
 
-```python
+print(np.max(a))           # Maximum of the flattened array
+print(np.max(a, axis=0))   # Maxima along the first axis
+print(np.max(a, axis=1))   # Maxima along the second axis
 
+b = np.arange(5, dtype=float)
+b[2] = np.NaN
+print(np.max(b))
+
+print(np.nanmax(b))
+
+print(np.max([[-50], [10]], axis=-1, initial=0))
+print(np.max([5], initial=6))
+print(max([5], default=6))
 ```
 
 ## 参考文献及资料

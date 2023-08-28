@@ -14,11 +14,35 @@
 - 把下面的这段python代码拷贝到这个页面左侧的空白栏中， 然后单击上方的按键“Run”。
 
 ```python
+import numpy as np
 
-```
+a = np.arange(6).reshape(2,3) + 10
+print(a)
 
-```python
+print(np.argmax(a))
+print(np.argmax(a, axis=0))
+print(np.argmax(a, axis=1))
 
+ind = np.unravel_index(np.argmax(a, axis=None), a.shape)
+print(ind)
+print(a[ind])
+
+b = np.arange(6)
+b[1] = 5
+print(b)
+
+print(np.argmax(b))  # Only the first occurrence is returned.
+
+x = np.array([[4,2,3], [1,0,3]])
+index_array = np.argmax(x, axis=-1)
+# Same as np.amax(x, axis=-1, keepdims=True)
+print(np.take_along_axis(x, np.expand_dims(index_array, axis=-1), axis=-1))
+
+# Same as np.amax(x, axis=-1)
+print(np.take_along_axis(x, np.expand_dims(index_array, axis=-1), axis=-1).squeeze(axis=-1))
+
+x = np.arange(24).reshape((2, 3, 4))
+print(x)
 ```
 
 ## 参考文献及资料

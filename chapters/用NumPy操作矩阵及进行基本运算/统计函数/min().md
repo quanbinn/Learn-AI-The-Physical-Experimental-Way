@@ -14,11 +14,23 @@
 - 把下面的这段python代码拷贝到这个页面左侧的空白栏中， 然后单击上方的按键“Run”。
 
 ```python
+import numpy as np
 
-```
+a = np.arange(4).reshape((2,2))
+print(a)
 
-```python
+print(np.min(a))           # Minimum of the flattened array
+print(np.min(a, axis=0))   # Minima along the first axis
+print(np.min(a, axis=1))   # Minima along the second axis
 
+b = np.arange(5, dtype=float)
+b[2] = np.NaN
+print(np.min(b))
+print(np.nanmin(b))
+
+print(np.min([[-50], [10]], axis=-1, initial=0))
+print(np.min([6], initial=5))
+print(min([6], default=5))
 ```
 
 ## 参考文献及资料

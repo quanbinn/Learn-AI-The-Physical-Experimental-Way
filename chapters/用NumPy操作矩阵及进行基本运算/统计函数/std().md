@@ -14,11 +14,22 @@
 - 把下面的这段python代码拷贝到这个页面左侧的空白栏中， 然后单击上方的按键“Run”。
 
 ```python
+import numpy as np
 
-```
+a = np.array([[1, 2], [3, 4]])
+print(np.std(a))
+print(np.std(a, axis=0))
+print(np.std(a, axis=1))
 
-```python
+a = np.zeros((2, 512*512), dtype=np.float32)
+a[0, :] = 1.0
+a[1, :] = 0.1
+print(np.std(a))
 
+print(np.std(a, dtype=np.float64))
+
+a = np.array([[14, 8, 11, 10], [7, 9, 10, 11], [10, 15, 5, 10]])
+print(np.std(a))
 ```
 
 ## 参考文献及资料

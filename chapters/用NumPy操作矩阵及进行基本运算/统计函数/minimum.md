@@ -1,4 +1,4 @@
-# divide()
+# minimum()
 
 ## 本质意义： 。
 
@@ -16,19 +16,15 @@
 ```python
 import numpy as np
 
-print(np.divide(2.0, 4.0))
+print(np.minimum([2, 3, 4], [1, 5, 2]))
+print(np.minimum(np.eye(2), [0.5, 2])) # broadcasting
 
-x1 = np.arange(9.0).reshape((3, 3))
-x2 = np.arange(3.0)
-print(np.divide(x1, x2))
-
-x1 = np.arange(9.0).reshape((3, 3))
-x2 = 2 * np.ones(3)
-print(x1 / x2)
+print(np.minimum([np.nan, 0, np.nan],[0, np.nan, np.nan]))
+print(np.minimum(-np.Inf, 1))
 ```
 
 ## 参考文献及资料
 
-1. [numpy.divide(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature, extobj]) = <ufunc 'divide'>](https://numpy.org/doc/stable/reference/generated/numpy.divide.html#numpy.divide)
+1. [numpy.minimum(x1, x2, /, out=None, *, where=True, casting='same_kind', order='K', dtype=None, subok=True[, signature, extobj]) = <ufunc 'minimum'>](https://numpy.org/doc/stable/reference/generated/numpy.minimum.html)
 
 

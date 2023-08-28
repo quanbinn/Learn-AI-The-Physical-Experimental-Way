@@ -14,11 +14,22 @@
 - 把下面的这段python代码拷贝到这个页面左侧的空白栏中， 然后单击上方的按键“Run”。
 
 ```python
+import numpy as np
 
-```
+a = np.array([[1, 2], [3, 4]])
+print(np.mean(a))
+print(np.mean(a, axis=0))
+print(np.mean(a, axis=1))
 
-```python
+a = np.zeros((2, 512*512), dtype=np.float32)
+a[0, :] = 1.0
+a[1, :] = 0.1
+print(np.mean(a))
 
+print(np.mean(a, dtype=np.float64))
+
+a = np.array([[5, 9, 13], [14, 10, 12], [11, 15, 19]])
+print(np.mean(a))
 ```
 
 ## 参考文献及资料
