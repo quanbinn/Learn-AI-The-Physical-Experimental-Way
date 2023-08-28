@@ -14,11 +14,25 @@
 - 把下面的这段python代码拷贝到这个页面左侧的空白栏中， 然后单击上方的按键“Run”。
 
 ```python
+import numpy as np
 
-```
+x = np.arange(10, 1, -1)
+print(x)
 
-```python
+print(x[np.array([3, 3, 1, 8])])
+print(x[np.array([3, 3, -3, 8])])
 
+x = np.array([[1, 2], [3, 4], [5, 6]])
+print(x[np.array([1, -1])])
+print(x[np.array([3, 4])])
+
+y = np.arange(35).reshape(5, 7)
+print(y)
+print(y[np.array([0, 2, 4]), np.array([0, 1, 2])])
+
+print(y[np.array([0, 2, 4]), np.array([0, 1])])
+print(y[np.array([0, 2, 4]), 1])
+print(y[np.array([0, 2, 4])])
 ```
 
 ## 参考文献及资料

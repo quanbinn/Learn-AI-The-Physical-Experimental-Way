@@ -14,11 +14,18 @@
 - 把下面的这段python代码拷贝到这个页面左侧的空白栏中， 然后单击上方的按键“Run”。
 
 ```python
+import numpy as np
 
-```
+x = np.arange(10)
+print(x[2])
+print(x[-2])
 
-```python
+x.shape = (2, 5)  # now x is 2-dimensional
+print(x[1, 3])
+print(x[1, -1])
 
+print(x[0])
+print(x[0][2])
 ```
 
 ## 参考文献及资料

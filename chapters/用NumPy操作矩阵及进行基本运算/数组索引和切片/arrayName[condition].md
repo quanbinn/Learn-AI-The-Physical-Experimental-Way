@@ -14,11 +14,28 @@
 - 把下面的这段python代码拷贝到这个页面左侧的空白栏中， 然后单击上方的按键“Run”。
 
 ```python
+import numpy as np
 
-```
+x = np.array([[1, 2], [3, 4], [5, 6]])
+print(x[[0, 1, 2], [0, 1, 0]])
 
-```python
+x = np.array([[ 0,  1,  2],
+              [ 3,  4,  5],
+              [ 6,  7,  8],
+              [ 9, 10, 11]])
+rows = np.array([[0, 0],
+                 [3, 3]], dtype=np.intp)
+columns = np.array([[0, 2],
+                    [0, 2]], dtype=np.intp)
+print(x[rows, columns])
 
+rows = np.array([0, 3], dtype=np.intp)
+columns = np.array([0, 2], dtype=np.intp)
+print(rows[:, np.newaxis])
+print(x[rows[:, np.newaxis], columns])
+
+print(x[np.ix_(rows, columns)])
+print(x[rows, columns])
 ```
 
 ## 参考文献及资料
