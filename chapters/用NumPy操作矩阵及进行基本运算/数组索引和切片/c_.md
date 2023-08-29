@@ -1,4 +1,4 @@
-# arrayName[start:end]
+# c_
 
 ## 本质意义： 。
 
@@ -16,27 +16,11 @@
 ```python
 import numpy as np
 
-x = np.array([0, 1, 2, 3, 4, 5, 6, 7, 8, 9])
-print(x[1:7:2])
-
-print(x[-2:10])
-print(x[-3:3:-1])
-print(x[5:])
-
-x = np.array([[[1],[2],[3]], [[4],[5],[6]]])
-x.shape
-print(x[1:2])
-```
-
-```python
-import numpy as np
-
-x = np.arange(10)
-print(x[:-7])
+print(np.c_[np.array([1,2,3]), np.array([4,5,6])])
+print(np.c_[np.array([[1,2,3]]), 0, 0, np.array([[4,5,6]])])
 ```
 
 ## 参考文献及资料
 
-1. [Slicing and striding](https://numpy.org/doc/stable/user/basics.indexing.html#slicing-and-striding) | [基本切片和索引](https://www.numpy.org.cn/reference/arrays/indexing.html#基本切片和索引)
-
+1. [numpy.c_ = <numpy.lib.index_tricks.CClass object>](https://numpy.org/doc/stable/reference/generated/numpy.c_.html#numpy.c_)
 
