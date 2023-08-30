@@ -1,5 +1,7 @@
 # Code：计算出Sigmoid function的输出数值
 
+## 本质意义： 。
+
 ## 打开实验文件
 
 - 单击右方的[Jupyter Notebook](https://mybinder.org/v2/gh/ipython/ipython-in-depth/master?filepath=binder/Index.ipynb)，稍后在浏览器里会显示Jupyter Notebook的运行环境。
