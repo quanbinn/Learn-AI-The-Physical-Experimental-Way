@@ -71,7 +71,7 @@
 	- [预测](/chapters/强化学习/蒙特卡洛控制算法/预测.md) | [用Q-table评估](/chapters/强化学习/蒙特卡洛控制算法/用Q-table评估.md) | [用ε-greedy策略改进](/chapters/强化学习/蒙特卡洛控制算法/用ε-greedy策略改进.md) | [用constant-α控制](/chapters/强化学习/蒙特卡洛控制算法/用constant-α控制.md)
 
 - 基本的时序差分控制方法
-	- Q-learning: [定义状态和行动并且设定奖励值的大小](/chapters/强化学习/基本的时序差分控制方法/Q-learning/经典实验1/定义状态和行动并且设定奖励值的大小.md) | [设置奖励矩阵R和Q-table矩阵Q](/chapters/强化学习/基本的时序差分控制方法/Q-learning/经典实验1/设置奖励矩阵R和Q-table矩阵Q.md) | [Q-table中数值的运算过程1](/chapters/强化学习/基本的时序差分控制方法/Q-learning/经典实验1/Q-table中数值的运算过程1.md) | [运算过程2](/chapters/强化学习/基本的时序差分控制方法/Q-learning/经典实验1/运算过程2.md) | [运算过程3](/chapters/强化学习/基本的时序差分控制方法/Q-learning/经典实验1/运算过程3.md) | [运算过程4](/chapters/强化学习/基本的时序差分控制方法/Q-learning/经典实验1/运算过程4.md) | [运算过程5](/chapters/强化学习/基本的时序差分控制方法/Q-learning/经典实验1/运算过程5.md)｜[Q-learning](/chapters/强化学习/基本的时序差分控制方法/Q-learning/Q-learning.md) 
+	- Q-learning: [定义状态和行动并且设定奖励值的大小](/chapters/强化学习/基本的时序差分控制方法/Q-learning/经典实验1/定义状态和行动并且设定奖励值的大小.md) | [设置奖励矩阵R和Q-table矩阵Q](/chapters/强化学习/基本的时序差分控制方法/Q-learning/经典实验1/设置奖励矩阵R和Q-table矩阵Q.md) | [Q-table中数值的运算过程1](/chapters/强化学习/基本的时序差分控制方法/Q-learning/经典实验1/Q-table中数值的运算过程1.md) | [运算过程2](/chapters/强化学习/基本的时序差分控制方法/Q-learning/经典实验1/运算过程2.md) | [运算过程3](/chapters/强化学习/基本的时序差分控制方法/Q-learning/经典实验1/运算过程3.md) | [运算过程4](/chapters/强化学习/基本的时序差分控制方法/Q-learning/经典实验1/运算过程4.md) | [运算过程5](/chapters/强化学习/基本的时序差分控制方法/Q-learning/经典实验1/运算过程5.md)｜[Q-learning](/chapters/强化学习/基本的时序差分控制方法/Q-learning/Q-learning/Q-learning.md) 
 	- Sarsa:[Sarsa](/chapters/强化学习/基本的时序差分控制方法/Sarsa.md)
 	- Expected-Sarsa:[Expected-Sarsa](/chapters/强化学习/基本的时序差分控制方法/Expected-Sarsa.md)
 
