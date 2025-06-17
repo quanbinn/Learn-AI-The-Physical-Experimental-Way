@@ -2,9 +2,9 @@
 
 ### 1.相关内容分别如下图所示。
 
-![](/images/强化学习/基本的时序差分控制方法/Q-learning/1a1.png)
+![](/images/强化学习/基本的时序差分控制方法/Q-learning/Q-learning/1a1.png)
 
-![](/images/强化学习/基本的时序差分控制方法/Q-learning/1a2.png)
+![](/images/强化学习/基本的时序差分控制方法/Q-learning/Q-learning/1a2.png)
 
 ## 参考文献及资料
 

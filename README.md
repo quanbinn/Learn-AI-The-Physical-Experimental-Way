@@ -60,8 +60,9 @@
 
 ### 强化学习
 
-- 基本概念
-
+- 基本概念和经典实验
+	- [智能体](/chapters/强化学习/基本概念和经典实验/智能体.md)｜[环境](/chapters/强化学习/基本概念和经典实验/环境.md)｜[状态](/chapters/强化学习/基本概念和经典实验/状态.md)｜[动作](/chapters/强化学习/基本概念和经典实验/动作.md)｜[奖励](/chapters/强化学习/基本概念和经典实验/奖励.md)｜[目标](/chapters/强化学习/基本概念和经典实验/目标.md)
+	- 
 - 马尔可夫链
 	- [马尔可夫决策过程中的“智能体-环境”的交互模型](/chapters/强化学习/马尔可夫链/马尔可夫决策过程中的“智能体-环境”的交互模型.md) | [策略的回报和最优策略的最优回报](/chapters/强化学习/马尔可夫链/策略的回报和最优策略的最优回报.md)
 	- [行动值函数(action-value-function)](/chapters/强化学习/马尔可夫链/行动值函数(action-value-function).md) | [状态值函数(state-value-function)](/chapters/强化学习/马尔可夫链/状态值函数(state-value-function).md) | [Bellman方程](/chapters/强化学习/马尔可夫链/Bellman方程.md)
@@ -70,12 +71,9 @@
 	- [预测](/chapters/强化学习/蒙特卡洛控制算法/预测.md) | [用Q-table评估](/chapters/强化学习/蒙特卡洛控制算法/用Q-table评估.md) | [用ε-greedy策略改进](/chapters/强化学习/蒙特卡洛控制算法/用ε-greedy策略改进.md) | [用constant-α控制](/chapters/强化学习/蒙特卡洛控制算法/用constant-α控制.md)
 
 - 基本的时序差分控制方法
-	- [Sarsa](/chapters/强化学习/基本的时序差分控制方法/Sarsa.md) | [Q-learning](/chapters/强化学习/基本的时序差分控制方法/Q-learning.md) | [Expected-Sarsa](/chapters/强化学习/基本的时序差分控制方法/Expected-Sarsa.md)
-
-- Q-Learning的基本原理
-
-	- [定义状态和行动并且设定奖励值的大小](/chapters/强化学习/Q-Learning的基本原理/定义状态和行动并且设定奖励值的大小.md) | [设置奖励矩阵R和Q-table矩阵Q](/chapters/强化学习/Q-Learning的基本原理/设置奖励矩阵R和Q-table矩阵Q.md)
-	- [Q-table中数值的运算过程1](/chapters/强化学习/Q-Learning的基本原理/Q-table中数值的运算过程1.md) | [运算过程2](/chapters/强化学习/Q-Learning的基本原理/运算过程2.md) | [运算过程3](/chapters/强化学习/Q-Learning的基本原理/运算过程3.md) | [运算过程4](/chapters/强化学习/Q-Learning的基本原理/运算过程4.md) | [运算过程5](/chapters/强化学习/Q-Learning的基本原理/运算过程5.md)
+	- Q-learning: [定义状态和行动并且设定奖励值的大小](/chapters/强化学习/基本的时序差分控制方法/Q-learning/经典实验1/定义状态和行动并且设定奖励值的大小.md) | [设置奖励矩阵R和Q-table矩阵Q](/chapters/强化学习/基本的时序差分控制方法/Q-learning/经典实验1/设置奖励矩阵R和Q-table矩阵Q.md) | [Q-table中数值的运算过程1](/chapters/强化学习/基本的时序差分控制方法/Q-learning/经典实验1/Q-table中数值的运算过程1.md) | [运算过程2](/chapters/强化学习/基本的时序差分控制方法/Q-learning/经典实验1/运算过程2.md) | [运算过程3](/chapters/强化学习/基本的时序差分控制方法/Q-learning/经典实验1/运算过程3.md) | [运算过程4](/chapters/强化学习/基本的时序差分控制方法/Q-learning/经典实验1/运算过程4.md) | [运算过程5](/chapters/强化学习/基本的时序差分控制方法/Q-learning/经典实验1/运算过程5.md)｜[Q-learning](/chapters/强化学习/基本的时序差分控制方法/Q-learning/Q-learning.md) 
+	- Sarsa:[Sarsa](/chapters/强化学习/基本的时序差分控制方法/Sarsa.md)
+	- Expected-Sarsa:[Expected-Sarsa](/chapters/强化学习/基本的时序差分控制方法/Expected-Sarsa.md)
 
 ### 机器学习
 
@@ -88,7 +86,6 @@
 	- [体验决策树](/chapters/机器学习/基本概念/体验决策树.md)
 
 - 遗传算法
-
 	- [在线体验求解函数式的极值 (Hold,未来代码重构)](/chapters/机器学习/遗传算法/在线体验求解函数式的极值.md)
 	- [定义评价函数](/chapters/机器学习/遗传算法/定义评价函数.md) | [随机生成种群](/chapters/机器学习/遗传算法/随机生成种群.md) | [二进制与十进制的相互映射](/chapters/机器学习/遗传算法/二进制与十进制的相互映射.md) | [适应度函数](/chapters/机器学习/遗传算法/适应度函数.md)
 	- [选择](/chapters/机器学习/遗传算法/选择.md) | [交叉](/chapters/机器学习/遗传算法/交叉.md) | [变异](/chapters/机器学习/遗传算法/变异.md)
