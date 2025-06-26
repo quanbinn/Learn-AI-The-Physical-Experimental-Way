@@ -97,12 +97,18 @@
 	- [选择](/chapters/机器学习/遗传算法/选择.md) | [交叉](/chapters/机器学习/遗传算法/交叉.md) | [变异](/chapters/机器学习/遗传算法/变异.md)
 
 ### 附录
- 
+
 - 在线体验导数/正态分布/最小平方法等
 	- [计算偏导数](/chapters/附录/计算偏导数.md) | [在Excel里生成正态分布的随机数(Wait)](/chapters/附录/在Excel里生成正态分布的随机数.md)
 	- [用Matplotlib绘出Step function (Hold,未来代码重构)](/chapters/附录/Step_function.md)
 	- [用Matplotlib绘出最小平方法的线性拟合 (Hold,未来代码重构)](/chapters/附录/用Matplotlib绘出最小平方法的线性拟合.md)
 	- [通过最小平方法的线性拟合体验Cost funciton(Wait)](/chapters/附录/通过最小平方法的线性拟合体验Cost_funciton.md)
+
+- 自然语言处理
+	- [上下文无关文法](/chapters/附录/自然语言处理/上下文无关文法.md) | [n元语法](/chapters/附录/自然语言处理/n元语法.md)
+	- [马尔可夫算法](/chapters/附录/自然语言处理/马尔可夫算法.md) | [词袋模型](/chapters/附录/自然语言处理/词袋模型.md) | [朴素贝叶斯分类器](/chapters/附录/自然语言处理/朴素贝叶斯分类器.md) | [文本情感分析](/chapters/附录/自然语言处理/文本情感分析.md) 
+	- [向量空间模型](/chapters/附录/自然语言处理/向量空间模型.md) | [词嵌入](/chapters/附录/自然语言处理/词嵌入.md)
+	- [注意力机制](/chapters/附录/自然语言处理/注意力机制.md) | [Transformer架构](/chapters/附录/自然语言处理/Transformer架构.md) 
 
 - 其它
 	- [使用蒙特卡罗方法计算圆周率近似值等](/chapters/附录/使用蒙特卡罗方法计算圆周率近似值等.md)
