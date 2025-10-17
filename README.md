@@ -20,9 +20,16 @@
 
 - 图像: [1张图像中的100个RGB值](/chapters/基本数据类型/图像/1张图像中的100个RGB值.md) | [在线体验RGB与HSV之间的相互转换](/chapters/基本数据类型/图像/在线体验RGB与HSV之间的相互转换.md) | [在线体验1张图片的RGB颜色空间](/chapters/基本数据类型/图像/在线体验1张图片的RGB颜色空间.md)
 - 点云: [通过发射角度和返回时间计算出返回点空间位置](/chapters/基本数据类型/点云/通过发射角度和返回时间计算出返回点空间位置.md)
-- 文字: [文字](/chapters/基本数据类型/文字/文字.md)
-- 声波: [声波](/chapters/基本数据类型/声波/声波.md)  
-- 数字: [数字](/chapters/基本数据类型/数字/数字.md)
+- 文本: [文字](/chapters/基本数据类型/文本/文字.md)
+- 语音: [声波](/chapters/基本数据类型/语音/声波.md)  
+- 结构化数值: [数字](/chapters/基本数据类型/结构化数值/数字.md)
+- 经典数据集
+	- 结构化数值：Iris ｜ Wine ｜ Diabetes ｜ Housing ｜ Wine Quality ｜ Abalone
+	- 图像：MNIST ｜ CIFAR-10 ｜ Tiny ImageNet
+	- 文本：SMS Spam ｜ IMDB ｜ AG News 
+	- 点云：ModelNet40 ｜ S3DIS ｜ KITTI ｜ ScanNet ｜ ShapeNet
+	- 语音：THCHS-30 ｜ LibriSpeech ｜ Baker Mandarin ｜ LJSpeech ｜ Common Voice
+	- 离线强化学习：D4RL ｜ RL Unplugged
 
 ### 深度学习
 
