@@ -24,12 +24,12 @@
 - 语音: [声波](/chapters/基本数据类型/语音/声波.md)  
 - 结构化数值: [数字](/chapters/基本数据类型/结构化数值/数字.md)
 - 经典数据集
-	- 结构化数值：Iris ｜ Wine ｜ Diabetes ｜ Housing ｜ Wine Quality ｜ Abalone
-	- 图像：MNIST ｜ CIFAR-10 ｜ Tiny ImageNet
-	- 文本：SMS Spam ｜ IMDB ｜ AG News 
-	- 点云：ModelNet40 ｜ S3DIS ｜ KITTI ｜ ScanNet ｜ ShapeNet
-	- 语音：THCHS-30 ｜ LibriSpeech ｜ Baker Mandarin ｜ LJSpeech ｜ Common Voice
-	- 离线强化学习：D4RL ｜ RL Unplugged
+	- 结构化数值：[Iris](/chapters/基本数据类型/经典数据集/结构化数值/Iris.md) ｜ [Wine](/chapters/基本数据类型/经典数据集/结构化数值/Wine.md) ｜ [Diabetes](/chapters/基本数据类型/经典数据集/结构化数值/Diabetes.md) ｜ [Housing](/chapters/基本数据类型/经典数据集/结构化数值/Housing.md) ｜ [Wine Quality](/chapters/基本数据类型/经典数据集/结构化数值/Wine_Quality.md)  ｜ [Abalone](/chapters/基本数据类型/经典数据集/结构化数值/Abalone.md)
+	- 图像：[MNIST](/chapters/基本数据类型/经典数据集/图像/MNIST.md) ｜ [CIFAR-10](/chapters/基本数据类型/经典数据集/图像/CIFAR-10.md) CIFAR-10 ｜ [Tiny ImageNet](/chapters/基本数据类型/经典数据集/图像/Tiny_ImageNet.md) 
+	- 文本：[SMS Spam](/chapters/基本数据类型/经典数据集/文本/SMS_Spam.md)｜ [IMDB](/chapters/基本数据类型/经典数据集/文本/IMDB.md) ｜ [AG News](/chapters/基本数据类型/经典数据集/文本/AG_News.md)
+	- 点云：[ModelNet40](/chapters/基本数据类型/经典数据集/点云/ModelNet40.md) ｜ [S3DIS](/chapters/基本数据类型/经典数据集/点云/S3DIS.md) ｜ [KITTI](/chapters/基本数据类型/经典数据集/点云/KITTI.md) ｜ [ScanNet](/chapters/基本数据类型/经典数据集/点云/ScanNet.md) ｜ [ShapeNet](/chapters/基本数据类型/经典数据集/点云/ShapeNet.md)
+	- 语音：[THCHS-30](/chapters/基本数据类型/经典数据集/点云/THCHS-30.md) ｜ [LibriSpeech](/chapters/基本数据类型/经典数据集/点云/LibriSpeech.md) ｜ [Baker Mandarin](/chapters/基本数据类型/经典数据集/点云/Baker_Mandarin.md) ｜ [LJSpeech](/chapters/基本数据类型/经典数据集/点云/LJSpeech.md) ｜ [Common Voice](/chapters/基本数据类型/经典数据集/点云/Common_Voice.md)
+	- 离线强化学习：[D4RL](/chapters/基本数据类型/经典数据集/离线强化学习/D4RL.md) ｜ [RLUnplugged](/chapters/基本数据类型/经典数据集/离线强化学习/RL_Unplugged.md)
 
 ### 深度学习
 
