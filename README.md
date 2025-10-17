@@ -28,7 +28,7 @@
 	- 图像：[MNIST](/chapters/基本数据类型/经典数据集/图像/MNIST.md) ｜ [CIFAR-10](/chapters/基本数据类型/经典数据集/图像/CIFAR-10.md) ｜ [Tiny ImageNet](/chapters/基本数据类型/经典数据集/图像/Tiny_ImageNet.md) 
 	- 文本：[SMS Spam](/chapters/基本数据类型/经典数据集/文本/SMS_Spam.md)｜ [IMDB](/chapters/基本数据类型/经典数据集/文本/IMDB.md) ｜ [AG News](/chapters/基本数据类型/经典数据集/文本/AG_News.md)
 	- 点云：[ModelNet40](/chapters/基本数据类型/经典数据集/点云/ModelNet40.md) ｜ [S3DIS](/chapters/基本数据类型/经典数据集/点云/S3DIS.md) ｜ [KITTI](/chapters/基本数据类型/经典数据集/点云/KITTI.md) ｜ [ScanNet](/chapters/基本数据类型/经典数据集/点云/ScanNet.md) ｜ [ShapeNet](/chapters/基本数据类型/经典数据集/点云/ShapeNet.md)
-	- 语音：[THCHS-30](/chapters/基本数据类型/经典数据集/点云/THCHS-30.md) ｜ [LibriSpeech](/chapters/基本数据类型/经典数据集/点云/LibriSpeech.md) ｜ [Baker Mandarin](/chapters/基本数据类型/经典数据集/点云/Baker_Mandarin.md) ｜ [LJSpeech](/chapters/基本数据类型/经典数据集/点云/LJSpeech.md) ｜ [Common Voice](/chapters/基本数据类型/经典数据集/点云/Common_Voice.md)
+	- 语音：[THCHS-30](/chapters/基本数据类型/经典数据集/语音/THCHS-30.md) ｜ [LibriSpeech](/chapters/基本数据类型/经典数据集/语音/LibriSpeech.md) ｜ [Baker Mandarin](/chapters/基本数据类型/经典数据集/语音/Baker_Mandarin.md) ｜ [LJSpeech](/chapters/基本数据类型/经典数据集/语音/LJSpeech.md) ｜ [Common Voice](/chapters/基本数据类型/经典数据集/语音/Common_Voice.md)
 	- 离线强化学习：[D4RL](/chapters/基本数据类型/经典数据集/离线强化学习/D4RL.md) ｜ [RLUnplugged](/chapters/基本数据类型/经典数据集/离线强化学习/RL_Unplugged.md)
 
 ### 深度学习
