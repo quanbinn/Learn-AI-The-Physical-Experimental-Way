@@ -7,4 +7,4 @@
 ## 参考文献及资料
 
 1. 维基百科
-	- [](https://en.wikipedia.org/wiki/) ｜ [](https://zh.wikipedia.org/wiki/) 
+	- [Stanford Large-Scale 3D Indoor Spaces Dataset (S3DIS)](https://sdss.redivis.com/datasets/9q3m-9w5pa1a2h) 

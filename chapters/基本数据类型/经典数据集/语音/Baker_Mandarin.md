@@ -7,4 +7,4 @@
 ## 参考文献及资料
 
 1. 维基百科
-	- [](https://en.wikipedia.org/wiki/) ｜ [](https://zh.wikipedia.org/wiki/) 
+	- [Chinese Mandarin Female Corpus(10,000 Sentences)](https://en.data-baker.com/datasets/freeDatasets) 

@@ -7,4 +7,6 @@
 ## 参考文献及资料
 
 1. 维基百科
-	- [](https://en.wikipedia.org/wiki/) ｜ [](https://zh.wikipedia.org/wiki/) 
+	- [D4RL](https://sites.google.com/view/d4rl-anonymous) 
+	- [D4RL](https://github.com/Farama-Foundation/D4RL) 
+	- [D4RL: Datasets for Deep Data-Driven Reinforcement Learning](https://arxiv.org/abs/2004.07219) 

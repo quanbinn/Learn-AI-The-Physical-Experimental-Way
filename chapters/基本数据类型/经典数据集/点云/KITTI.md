@@ -7,4 +7,5 @@
 ## 参考文献及资料
 
 1. 维基百科
-	- [](https://en.wikipedia.org/wiki/) ｜ [](https://zh.wikipedia.org/wiki/) 
+	- [The KITTI Vision Benchmark Suite](https://www.cvlibs.net/datasets/kitti/) 
+	- [pykitti](https://github.com/utiasSTARS/pykitti) 

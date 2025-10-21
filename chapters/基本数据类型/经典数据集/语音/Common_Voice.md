@@ -7,4 +7,5 @@
 ## 参考文献及资料
 
 1. 维基百科
-	- [](https://en.wikipedia.org/wiki/) ｜ [](https://zh.wikipedia.org/wiki/) 
+	- [Common Voice](https://en.wikipedia.org/wiki/Common_Voice) ｜ [Common Voice](https://zh.wikipedia.org/wiki/Common_Voice)
+	- [Common Voice](https://commonvoice.mozilla.org/zh-CN) 

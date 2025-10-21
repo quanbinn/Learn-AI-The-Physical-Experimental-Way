@@ -7,4 +7,5 @@
 ## 参考文献及资料
 
 1. 维基百科
-	- [](https://en.wikipedia.org/wiki/) ｜ [](https://zh.wikipedia.org/wiki/) 
+	- [ShapeNet.org](https://www.shapenet.org) 
+	- [ShapeNet](https://github.com/ShapeNet) 

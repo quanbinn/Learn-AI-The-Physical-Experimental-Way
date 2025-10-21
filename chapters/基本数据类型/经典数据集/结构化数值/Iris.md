@@ -7,4 +7,5 @@
 ## 参考文献及资料
 
 1. 维基百科
-	- [](https://en.wikipedia.org/wiki/) ｜ [](https://zh.wikipedia.org/wiki/) 
+	- [Iris flower data set](https://en.wikipedia.org/wiki/Iris_flower_data_set) ｜ [安德森鸢尾花卉数据集](https://zh.wikipedia.org/wiki/安德森鸢尾花卉数据集)
+	- [Iris](https://archive.ics.uci.edu/dataset/53/iris) 

@@ -7,4 +7,7 @@
 ## 参考文献及资料
 
 1. 维基百科
-	- [](https://en.wikipedia.org/wiki/) ｜ [](https://zh.wikipedia.org/wiki/) 
+	- [Tiny ImageNet](https://www.kaggle.com/datasets/akash2sharma/tiny-imagenet) 
+	- [Tiny-Imagenet-200](https://github.com/rmccorm4/Tiny-Imagenet-200) 
+	- [tiny-imagenet-200-clean](https://huggingface.co/datasets/slegroux/tiny-imagenet-200-clean) 
+	- [Tiny ImageNet Dataset](https://datasets.activeloop.ai/docs/ml/datasets/tiny-imagenet-dataset/) 

@@ -7,4 +7,5 @@
 ## 参考文献及资料
 
 1. 维基百科
-	- [](https://en.wikipedia.org/wiki/) ｜ [](https://zh.wikipedia.org/wiki/) 
+	- [ScanNet: Richly-annotated 3D Reconstructions of Indoor Scenes](https://www.scan-net.org) 
+	- [ScanNet](https://github.com/ScanNet/ScanNet) 
