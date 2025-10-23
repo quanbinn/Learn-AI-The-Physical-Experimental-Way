@@ -2,7 +2,7 @@
 
 ## 开始做
 
-![](/images/基本数据类型/经典数据集/离线强化学习/RL_Unplugged/01.jpg)
+![](/images/经典数据集/离线强化学习/RL_Unplugged/01.jpg)
 
 ## 参考文献及资料
 
