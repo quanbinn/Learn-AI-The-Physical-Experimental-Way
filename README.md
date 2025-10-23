@@ -36,6 +36,7 @@
 ### 深度学习
 
 - 基本概念
+
 	- [人工神经元](/chapters/深度学习/基本概念/人工神经元.md) | [**Code：计算出人工神经元的输出数值**](/chapters/深度学习/基本概念/Code：计算出人工神经元的输出数值.md)
 	- [多层人工神经网络](/chapters/深度学习/基本概念/多层人工神经网络.md) | [**Code：计算出多层人工神经网络的输出数值**](/chapters/深度学习/基本概念/Code：计算出多层人工神经网络的输出数值.md)
 	- [ReLU activation function](/chapters/深度学习/基本概念/ReLU_activation_function.md) | [**Code：计算出ReLU activation function的输出数值**](/chapters/深度学习/基本概念/Code：计算出ReLU_activation_function的输出数值.md)
@@ -74,6 +75,7 @@
 ### 强化学习
 
 - 基本概念和经典实验
+
 	- [智能体](/chapters/强化学习/基本概念和经典实验/智能体.md)｜[环境](/chapters/强化学习/基本概念和经典实验/环境.md)｜[状态](/chapters/强化学习/基本概念和经典实验/状态.md)｜[动作](/chapters/强化学习/基本概念和经典实验/动作.md)｜[奖励](/chapters/强化学习/基本概念和经典实验/奖励.md)｜[目标](/chapters/强化学习/基本概念和经典实验/目标.md)
 	- [多臂赌博机](/chapters/强化学习/基本概念和经典实验/多臂赌博机.md)｜[机器人拾放](/chapters/强化学习/基本概念和经典实验/机器人拾放.md)｜[机器人回收](/chapters/强化学习/基本概念和经典实验/机器人回收.md)｜[机器人走迷宫](/chapters/强化学习/基本概念和经典实验/机器人走迷宫.md)｜[杆平衡](/chapters/强化学习/基本概念和经典实验/杆平衡.md)｜[网格问题](/chapters/强化学习/基本概念和经典实验/网格问题.md)｜[高尔夫](/chapters/强化学习/基本概念和经典实验/高尔夫.md)
 	- [租车问题](/chapters/强化学习/基本概念和经典实验/租车问题.md)｜[赌徒问题](/chapters/强化学习/基本概念和经典实验/徒问题.md)
@@ -96,7 +98,8 @@
 
 ### 机器学习
 
-- 基本概念
+- 基本概念和经典实验
+
 	- [数据集中多个数据的Mean,Median,和Mode](/chapters/机器学习/基本概念/数据集中多个数据的Mean,Median,和Mode.md) | [数据集中多个数据的Standard Deviation和Variance](/chapters/机器学习/基本概念/数据集中多个数据的Standard_Deviation和Variance.md) | [数据集中多个数据的Percentile](/chapters/机器学习/基本概念/数据集中多个数据的Percentile.md)
 	- [数据集中多个数据的(Normal) Data Distribution](/chapters/机器学习/基本概念/数据集中多个数据的(Normal)_Data_Distribution.md) | [数据集中多个数据的Scatter Plot](/chapters/机器学习/基本概念/数据集中多个数据的Scatter_Plot.md)
 	- [用Linear Regression找出不同类型的数据间的相互关系](/chapters/机器学习/基本概念/用Linear_Regression找出不同类型的数据间的相互关系.md) | [用Polynomial Regression找出不同类型的数据间的相互关系](/chapters/机器学习/基本概念/用Polynomial_Regression找出不同类型的数据间的相互关系.md) | [用Multiple Regression找出不同类型的数据间的相互关系](/chapters/机器学习/基本概念/用Multiple_Regression找出不同类型的数据间的相互关系.md) 
